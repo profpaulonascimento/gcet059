@@ -40,6 +40,8 @@ Por favor, deixe-me saber ([email](mailto:nascimento.p@ufrb.edu.br)) se você te
 
 ## Capítulo 10. Métodos para encontrar a solução de problemas de valores de contorno
 
+### Capítulo 11
+
 
 
 
