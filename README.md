@@ -34,7 +34,7 @@ Por favor, deixe-me saber ([email](mailto:nascimento.p@ufrb.edu.br)) se você te
 
 <!-- - [Integração Numérica](https://nbviewer.org/github/profpaulonascimento/gcet059/blob/main/notebooks/GCET059%20integracao.ipynb)
 - [Integração - Método dos Trapézios](https://nbviewer.org/github/profpaulonascimento/gcet059/blob/main/gcet059_integracao_metododostrapezios.ipynb)-->
-- [Método dos Trapézios](https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_metodotrapezios.html)
+- [Método dos Trapézios](https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_trapezios.html)
 - [Método 1/3 de Simpson](https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_13simpson.html)
 - [Método 3/8 de Simpson](https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_38simpson.html)
 
