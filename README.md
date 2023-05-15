@@ -32,8 +32,8 @@ Por favor, deixe-me saber ([email](mailto:nascimento.p@ufrb.edu.br)) se você te
 
 ### Capítulo 8. Métodos para encontrar aproximações da inegral de uma função real definida em um intervalo
 
-- [Integração Numérica](https://nbviewer.org/github/profpaulonascimento/gcet059/blob/main/notebooks/GCET059%20integracao.ipynb)
-<!-- - [Integração - Método dos Trapézios](https://nbviewer.org/github/profpaulonascimento/gcet059/blob/main/gcet059_integracao_metododostrapezios.ipynb)-->
+<!-- - [Integração Numérica](https://nbviewer.org/github/profpaulonascimento/gcet059/blob/main/notebooks/GCET059%20integracao.ipynb)
+- [Integração - Método dos Trapézios](https://nbviewer.org/github/profpaulonascimento/gcet059/blob/main/gcet059_integracao_metododostrapezios.ipynb)-->
 - [Método dos Trapézios](https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_metodotrapezios.html)
 - [Método 1/3 de Simpson](https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_13simpson.html)
 - [Método 3/8 de Simpson](https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_38simpson.html)
