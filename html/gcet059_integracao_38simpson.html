@@ -14628,29 +14628,23 @@ L_3(x)
 = \dfrac{z^{3} - 3 z^{2} + 2 z}{6} 
 \end{array}$$</p>
 <p><font size=4>A integral de $f(x)$ no intervalo $[a,b]$ pode ser aproximada pela integral do polinômio interpolador $p_3(x)$ no mesmo intervalo.</p>
-<p><font size=4>Portanto
+<p><font size=4>Portanto,
 $$\begin{array}{rcl}
 \displaystyle\int_{a}^{b} f(x)~dx &amp;\approx&amp;
-  f(x<em>0) \displaystyle\int</em>{0}^{3} \dfrac{z^{3} - 6 z^{2} + 11 z - 6}{-6} h~dz \
-&amp;&amp; + f(x<em>1) \displaystyle\int</em>{0}^{3} \dfrac{z^{3} - 5 z^{2} + 6 z}{2} h~dz \
-&amp;&amp; + f(x<em>2) \displaystyle\int</em>{0}^{3} \dfrac{z^{3} - 4 z^{2} + 3 z}{-2} h~dz \
-&amp;&amp; + f(x<em>3) \displaystyle\int</em>{0}^{3} \dfrac{z^{3} - 3 z^{2} + 2 z}{6} h~dz
-\ \
-&amp;=&amp;  -f(x<em>0) \dfrac{h}{6} \left[\dfrac{z^{4}}{4} - 6 \dfrac{z^{3}}{3} + 11 \dfrac{z^{2}}{2} - 6z \right|</em>{0}^{3} \
-&amp;&amp; + f(x<em>1) \dfrac{h}{2} \left[\dfrac{z^{4}}{4} - 5 \dfrac{z^{3}}{3} + 6 \dfrac{z^{2}}{2} \right|</em>{0}^{3} \
-&amp;&amp; - f(x<em>2) \dfrac{h}{2} \left[\dfrac{z^{4}}{4} - 4 \dfrac{z^{2}}{3} + 3 \dfrac{z^{2}}{2} \right|</em>{0}^{3} \
-&amp;&amp; + f(x<em>3) \dfrac{h}{6} \left[\dfrac{z^{4}}{4} - 3 \dfrac{z^{3}}{3} + 2 \dfrac{z^{2}}{2} \right|</em>{0}^{3}
-\ \
-&amp;=&amp;</p>
-<ul>
-<li>f(x_0) \dfrac{h}{6} \left(\dfrac{-9}{4}\right)</li>
-<li>f(x_1) \dfrac{h}{2} \left(\dfrac{9}{4}\right)</li>
-<li>f(x_2) \dfrac{h}{2} \left(\dfrac{-9}{4}\right)</li>
-<li>f(x_3) \dfrac{h}{6} \left(\dfrac{9}{4}\right) \
+  f(x_0) \displaystyle\int_{0}^{3} \dfrac{z^{3} - 6 z^{2} + 11 z - 6}{-6} h~dz \\
+&amp;&amp; + f(x_1) \displaystyle\int_{0}^{3} \dfrac{z^{3} - 5 z^{2} + 6 z}{2} h~dz \\
+&amp;&amp; + f(x_2) \displaystyle\int_{0}^{3} \dfrac{z^{3} - 4 z^{2} + 3 z}{-2} h~dz \\
+&amp;&amp; + f(x_3) \displaystyle\int_{0}^{3} \dfrac{z^{3} - 3 z^{2} + 2 z}{6} h~dz
+\\ \\
+&amp;=&amp;  -f(x_0) \dfrac{h}{6} \left[\dfrac{z^{4}}{4} - 6 \dfrac{z^{3}}{3} + 11 \dfrac{z^{2}}{2} - 6z \right|_{0}^{3} \\
+&amp;&amp; + f(x_1) \dfrac{h}{2} \left[\dfrac{z^{4}}{4} - 5 \dfrac{z^{3}}{3} + 6 \dfrac{z^{2}}{2} \right|_{0}^{3} \\
+&amp;&amp; - f(x_2) \dfrac{h}{2} \left[\dfrac{z^{4}}{4} - 4 \dfrac{z^{2}}{3} + 3 \dfrac{z^{2}}{2} \right|_{0}^{3} \\
+&amp;&amp; + f(x_3) \dfrac{h}{6} \left[\dfrac{z^{4}}{4} - 3 \dfrac{z^{3}}{3} + 2 \dfrac{z^{2}}{2} \right|_{0}^{3}
+\\ \\
+&amp;=&amp; - f(x_0) \dfrac{h}{6} \left(\dfrac{-9}{4}\right) + f(x_1) \dfrac{h}{2} \left(\dfrac{9}{4}\right) - f(x_2) \dfrac{h}{2} \left(\dfrac{-9}{4}\right) + f(x_3) \dfrac{h}{6} \left(\dfrac{9}{4}\right) \\
 &amp;=&amp;
 \dfrac{3}{8} h [f(x_0)+3f(x_1)+3f(x_2)+f(x_3)]
-\end{array}$$</li>
-</ul>
+\end{array}$$</p>
 <p><font size=4>Assim, a integral de $f(x)$ no intervalo $[a,b]$ pode ser aproximada pela seguinte fórmula:
 $$
 \displaystyle\int_{a}^{b} f(x)~dx \approx \dfrac{3}{8} h [f(x_0)+3f(x_1)+3f(x_2)+f(x_3)],
@@ -15260,51 +15254,6 @@ $$E_{n} = \dfrac{h^{n+3} f^{(n+2)}(\xi)}{(n+2)!} \displaystyle\int_{0}^n \left(u
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">sympy</span> <span class="k">as</span> <span class="nn">sp</span>
-<span class="n">sp</span><span class="o">.</span><span class="n">init_printing</span><span class="p">(</span><span class="n">use_unicode</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="c1"># allow LaTeX printing</span>
-
-<span class="n">z</span><span class="p">,</span><span class="n">x</span><span class="p">,</span><span class="n">x0</span><span class="p">,</span><span class="n">x1</span><span class="p">,</span><span class="n">x2</span><span class="p">,</span><span class="n">x3</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">symbols</span><span class="p">(</span><span class="s1">'z,x,x0,x1,x2,x3'</span><span class="p">)</span>
-
-<span class="n">y1</span> <span class="o">=</span> <span class="p">(</span><span class="n">z</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">z</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">z</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
-<span class="n">y2</span> <span class="o">=</span> <span class="n">y1</span><span class="o">.</span><span class="n">expand</span><span class="p">()</span>
-<span class="n">y3</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">latex</span><span class="p">(</span><span class="n">y2</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">y3</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span><span class="n">z1</span> <span class="o">=</span> <span class="n">z</span><span class="o">**</span><span class="mi">4</span><span class="o">/</span><span class="mi">4</span><span class="o">-</span><span class="mi">2</span><span class="o">*</span><span class="n">z</span><span class="o">**</span><span class="mi">3</span><span class="o">+</span><span class="mi">11</span><span class="o">*</span><span class="n">z</span><span class="o">**</span><span class="mi">2</span><span class="o">/</span><span class="mi">2</span><span class="o">-</span><span class="mi">6</span><span class="o">*</span><span class="n">z</span>
-<span class="n">z2</span> <span class="o">=</span> <span class="n">z</span><span class="o">**</span><span class="mi">4</span><span class="o">/</span><span class="mi">4</span><span class="o">-</span><span class="mi">5</span><span class="o">*</span><span class="n">z</span><span class="o">**</span><span class="mi">3</span><span class="o">/</span><span class="mi">3</span><span class="o">+</span><span class="mi">3</span><span class="o">*</span><span class="n">z</span><span class="o">**</span><span class="mi">2</span>
-<span class="n">z3</span> <span class="o">=</span> <span class="n">z</span><span class="o">**</span><span class="mi">4</span><span class="o">/</span><span class="mi">4</span><span class="o">-</span><span class="mi">4</span><span class="o">*</span><span class="n">z</span><span class="o">**</span><span class="mi">3</span><span class="o">/</span><span class="mi">3</span><span class="o">+</span><span class="mi">3</span><span class="o">*</span><span class="n">z</span><span class="o">**</span><span class="mi">2</span><span class="o">/</span><span class="mi">2</span>
-<span class="n">z4</span> <span class="o">=</span> <span class="n">z</span><span class="o">**</span><span class="mi">4</span><span class="o">/</span><span class="mi">4</span><span class="o">-</span><span class="n">z</span><span class="o">**</span><span class="mi">3</span><span class="o">+</span><span class="n">z</span><span class="o">**</span><span class="mi">2</span>
-
-<span class="n">z4</span><span class="o">.</span><span class="n">subs</span><span class="p">(</span><span class="n">z</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 </body>
 
