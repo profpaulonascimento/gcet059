@@ -30,7 +30,7 @@ Por favor, deixe-me saber ([email](mailto:nascimento.p@ufrb.edu.br)) se você te
 
 ### Capítulo 7. Interpolação polinomial
 
-### Capítulo 8. Métodos para encontrar aproximações da inegral de uma função real definida em um intervalo
+### Capítulo 8. Métodos para encontrar aproximações da integral de uma função real definida em um intervalo
 
 <!-- - [Integração Numérica](https://nbviewer.org/github/profpaulonascimento/gcet059/blob/main/notebooks/GCET059%20integracao.ipynb)
 - [Integração - Método dos Trapézios](https://nbviewer.org/github/profpaulonascimento/gcet059/blob/main/gcet059_integracao_metododostrapezios.ipynb)-->
