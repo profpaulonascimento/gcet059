@@ -14580,8 +14580,33 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1><font color=green>$\bullet$ MÉTODO 3/8 DE SIMPSON</h1>
+<div class="logo">
+  <a href="https://colab.research.google.com/github/profpaulonascimento/gcet059/blob/main/gcet059_integracao_38simpson.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1><font color=green> MÉTODO 3/8 DE SIMPSON</h1>
 
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Dedu%C3%A7%C3%A3o-do-m%C3%A9todo">Dedu&#231;&#227;o do m&#233;todo<a class="anchor-link" href="#Dedu%C3%A7%C3%A3o-do-m%C3%A9todo">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -14661,6 +14686,69 @@ em que $h = \dfrac{b-a}{3}$ é o tamanho de cada subintervalo.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="C%C3%B3digo">C&#243;digo<a class="anchor-link" href="#C%C3%B3digo">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="k">def</span> <span class="nf">simpson38</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">f</span><span class="p">):</span>
+    <span class="n">h</span> <span class="o">=</span> <span class="p">(</span><span class="n">b</span><span class="o">-</span><span class="n">a</span><span class="p">)</span><span class="o">/</span><span class="mi">3</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+    <span class="k">return</span> <span class="mi">3</span><span class="o">/</span><span class="mi">8</span><span class="o">*</span><span class="n">h</span><span class="o">*</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">+</span><span class="mi">3</span><span class="o">*</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span><span class="o">+</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">]))</span><span class="o">+</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Cota-para-o-erro-no-m%C3%A9todo-de-3/8-Simpson">Cota para o erro no m&#233;todo de 3/8 Simpson<a class="anchor-link" href="#Cota-para-o-erro-no-m%C3%A9todo-de-3/8-Simpson">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font size=4>O Método 3/8 de Simpson tem cota estabelecida pela seguinte fórmula:
+\begin{equation}
+\dfrac{3}{80} h^5 \max\limits_{x \in [a,b]} \{|f^{(4)}(x)|\},
+\end{equation}
+em que $m$ é o número, múltiplo de $3$, de subintervalos de mesmo comprimento $h = \dfrac{b-a}{3}$.</p>
+<p><font size=4>Assim, o erro $E_{3/8}$ é tal que
+\begin{equation}
+|E_{3/8}| &lt; \dfrac{3}{80} h^5 \max\limits_{x \in [a,b]} \{|f^{(4)}(x)|\}
+\end{equation}</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Exemplo">Exemplo<a class="anchor-link" href="#Exemplo">&#182;</a></h2>
 </div>
 </div>
@@ -14672,8 +14760,14 @@ em que $h = \dfrac{b-a}{3}$ é o tamanho de cada subintervalo.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size=4> Determine, utilizando a regra 3/8 de Simpson,
-$$\displaystyle \int_{1.2}^{1.5} x e^{x}~dx$$</p>
+<p><font size=4> Determine
+$$\displaystyle \int_{1.2}^{1.5} x e^{x}~dx,$$</p>
+<blockquote><ul>
+<li><font size=4>(a) utilizando a regra 3/8 de Simpson;</li>
+<li><font size=4>(b) a cota para o erro;</li>
+<li><font size=4>(c) o erro absoluto.</li>
+</ul>
+</blockquote>
 
 </div>
 </div>
@@ -14685,7 +14779,19 @@ $$\displaystyle \int_{1.2}^{1.5} x e^{x}~dx$$</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="C%C3%B3digo-j%C3%A1-feito">C&#243;digo j&#225; feito<a class="anchor-link" href="#C%C3%B3digo-j%C3%A1-feito">&#182;</a></h3>
+<h3 id="Solu%C3%A7%C3%A3o:">Solu&#231;&#227;o:<a class="anchor-link" href="#Solu%C3%A7%C3%A3o:">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font size=4>(a) Devemos informar qual a função que queremos integrar e os limites de integração podem ser inseridos como argumentos. Para isso, utilizaremos o método <code>lambda</code>. Em seguida, chamaremos a função <code>simpson38(a,b,f)</code>, substituindo os devidos valores de <code>a</code>e <code>b</code>, para obter a aproximação requerida.</p>
+
 </div>
 </div>
 </div>
@@ -14694,19 +14800,12 @@ $$\displaystyle \int_{1.2}^{1.5} x e^{x}~dx$$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<div class=" highlight hl-python"><pre><span></span><span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 
-<span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-
-<span class="k">def</span> <span class="nf">simpson_2</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">f</span><span class="p">):</span>
-    <span class="n">h</span> <span class="o">=</span> <span class="p">(</span><span class="n">b</span><span class="o">-</span><span class="n">a</span><span class="p">)</span><span class="o">/</span><span class="mi">3</span>
-    <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
-    <span class="k">return</span> <span class="mi">3</span><span class="o">/</span><span class="mi">8</span><span class="o">*</span><span class="n">h</span><span class="o">*</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">+</span><span class="mi">3</span><span class="o">*</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span><span class="o">+</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">]))</span><span class="o">+</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
-
-<span class="n">v_approx1</span> <span class="o">=</span> <span class="n">simpson_2</span><span class="p">(</span><span class="mf">1.2</span><span class="p">,</span><span class="mf">1.5</span><span class="p">,</span><span class="n">f</span><span class="p">)</span>
+<span class="n">v_approx1</span> <span class="o">=</span> <span class="n">simpson38</span><span class="p">(</span><span class="mf">1.2</span><span class="p">,</span><span class="mf">1.5</span><span class="p">,</span><span class="n">f</span><span class="p">)</span>
 <span class="n">v_approx1</span>
 </pre></div>
 
@@ -14725,7 +14824,7 @@ $$\displaystyle \int_{1.2}^{1.5} x e^{x}~dx$$</p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 
 
 
@@ -14740,20 +14839,35 @@ $$\displaystyle \int_{1.2}^{1.5} x e^{x}~dx$$</p>
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>(b) Para determinar a cota para o erro, vamos, iniciamente, determinar:
+\begin{equation}
+\max\limits_{x \in [a,b]} \{|f^{(4)}(x)|\}.
+\end{equation}
+para isso, precisamos verificar o sinal da função $f^{(4)}$ em vizinhanças dos pontos críticos, caso existam. Caso, não exista ponto crítico, a função $f^{(4)}$ será monótona crescente ou decrescente.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">sympy</span> <span class="k">as</span> <span class="nn">sp</span>
 
 <span class="n">x</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">symbols</span><span class="p">(</span><span class="s1">'x'</span><span class="p">)</span>
-<span class="n">v_exato1</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">integrate</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="n">sp</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">x</span><span class="p">),(</span><span class="n">x</span><span class="p">,</span><span class="mf">1.2</span><span class="p">,</span><span class="mf">1.5</span><span class="p">))</span>
-
-<span class="nb">abs</span><span class="p">(</span><span class="n">v_approx1</span><span class="o">-</span><span class="n">v_exato1</span><span class="p">)</span>
+<span class="n">a</span><span class="o">=</span><span class="mf">1.2</span><span class="p">;</span> <span class="n">b</span><span class="o">=</span><span class="mf">1.5</span><span class="p">;</span> <span class="n">h</span> <span class="o">=</span> <span class="p">(</span><span class="n">b</span><span class="o">-</span><span class="n">a</span><span class="p">)</span><span class="o">/</span><span class="mi">3</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">sp</span><span class="o">.</span><span class="n">Derivative</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="n">sp</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">x</span><span class="p">),</span><span class="n">x</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">doit</span><span class="p">())</span>
 </pre></div>
 
      </div>
@@ -14771,15 +14885,13 @@ $$\displaystyle \int_{1.2}^{1.5} x e^{x}~dx$$</p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-
-
-<div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex">
-$\displaystyle 7.7535252889227 \cdot 10^{-6}$
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>(x + 5)*exp(x)
+</pre>
 </div>
-
 </div>
 
 </div>
@@ -14793,11 +14905,62 @@ $\displaystyle 7.7535252889227 \cdot 10^{-6}$
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2><font color = green> Cota para o erro no método 3/8 de Simpson</h2>
+<p><font size=4>Observamos que</p>
+<ul>
+<li>$f^{(5)}(x) = 0 \implies x = -5$, o ponto crítico de $f^{(4)}$.</li>
+</ul>
+<p><font size=4>Além disso,</p>
+<ul>
+<li>$f^{(5)}(x)&lt;0$, se $x&lt;-5$, ou seja, $f^{(4)}$ é decrescente em $]-\infty,-5[$ e</li>
+<li>$f^{(5)}(x)&gt;0$, se $x&gt;-5$, ou seja, $f^{(4)}$ é crescente em $]-5,\infty[$.</li>
+</ul>
+<p><font size=4>Portanto, o ponto crítico da função $f^{(4)}$ é mínimo e, dessa forma, como o máximo da função $f^{(4)}$ é para ser determinado localmente, no intervalo $[1.2,1.5]$, temos que $f^{(4)}$ assume valor máximo em $1.5$.</p>
+<p><font size=4>Os comandos a seguir mostram o que fora aqui discutido.</p>
 
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-python"><pre><span></span><span class="n">f4</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">Derivative</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="n">sp</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">x</span><span class="p">),</span><span class="n">x</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span><span class="o">.</span><span class="n">doit</span><span class="p">()</span>
+<span class="n">f4_max</span> <span class="o">=</span> <span class="n">f4</span><span class="o">.</span><span class="n">subs</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="mf">1.5</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">f4_max</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>24.6492898868594
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -14805,50 +14968,23 @@ $\displaystyle 7.7535252889227 \cdot 10^{-6}$
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size=4>O Método 3/8 de Simpson tem cota estabelecida pela seguinte fórmula:
+<p><font size=4>Agora, basta substituir o valor em
 \begin{equation}
 \dfrac{3}{80} h^5 \max\limits_{x \in [a,b]} \{|f^{(4)}(x)|\},
-\end{equation}
-em que $m$ é o número, múltiplo de $3$, de subintervalos de mesmo comprimento $h = \dfrac{b-a}{3}$.</p>
-<p><font size=4>Assim, o erro $E_{3/8}$ é tal que
-\begin{equation}
-|E_{3/8}| &lt; \dfrac{3}{80} h^5 \max\limits_{x \in [a,b]} \{|f^{(4)}(x)|\},
 \end{equation}</p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span><span class="n">a</span><span class="o">=</span><span class="mf">1.2</span><span class="p">;</span> <span class="n">b</span><span class="o">=</span><span class="mf">1.5</span><span class="p">;</span>
-<span class="n">h</span> <span class="o">=</span> <span class="p">(</span><span class="n">b</span><span class="o">-</span><span class="n">a</span><span class="p">)</span><span class="o">/</span><span class="mi">3</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">sympy</span> <span class="k">as</span> <span class="nn">sp</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">symbols</span><span class="p">(</span><span class="s1">'x'</span><span class="p">)</span>
-
-<span class="n">maxf4</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">Derivative</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="n">sp</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">x</span><span class="p">),</span><span class="n">x</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span><span class="o">.</span><span class="n">doit</span><span class="p">()</span><span class="o">.</span><span class="n">subs</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="mf">1.5</span><span class="p">)</span>
-<span class="mi">3</span><span class="o">*</span><span class="n">h</span><span class="o">**</span><span class="mi">5</span><span class="o">/</span><span class="mi">80</span><span class="o">*</span><span class="n">maxf4</span>
+<div class=" highlight hl-python"><pre><span></span><span class="nb">round</span><span class="p">(</span><span class="mi">3</span><span class="o">*</span><span class="n">h</span><span class="o">**</span><span class="mi">5</span><span class="o">/</span><span class="mi">80</span><span class="o">*</span><span class="n">f4_max</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14866,57 +15002,13 @@ em que $m$ é o número, múltiplo de $3$, de subintervalos de mesmo comprimento
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
 
 
 
 
 <div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex">
-$\displaystyle 9.24348370757227 \cdot 10^{-6}$
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">from</span> <span class="nn">scipy.optimize</span> <span class="kn">import</span> <span class="n">fminbound</span>
-
-<span class="n">fminbound</span><span class="p">(</span><span class="k">lambda</span> <span class="n">t</span><span class="p">:</span> <span class="p">(</span><span class="n">t</span><span class="o">+</span><span class="mi">4</span><span class="p">)</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">t</span><span class="p">),</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>1.2000042240513809</pre>
+$\displaystyle 9.2435 \cdot 10^{-6}$
 </div>
 
 </div>
@@ -14932,7 +15024,61 @@ $\displaystyle 9.24348370757227 \cdot 10^{-6}$
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1><font color = green>$\bullet$ MÉTODO 3/8 de SIMPSON COMPOSTO</h1>
+<p><font size=4>(c) Para o valor exato da integral, consideraremos o valor obtido pelo método de integração <code>sympy integrate</code>, da seguinte maneira:</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-python"><pre><span></span><span class="n">v_exato1</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">integrate</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="n">sp</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">x</span><span class="p">),(</span><span class="n">x</span><span class="p">,</span><span class="mf">1.2</span><span class="p">,</span><span class="mf">1.5</span><span class="p">))</span>
+<span class="nb">round</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">v_approx1</span><span class="o">-</span><span class="n">v_exato1</span><span class="p">),</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[46]:</div>
+
+
+
+
+<div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex">
+$\displaystyle 7.7535 \cdot 10^{-6}$
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1><font color = green> MÉTODO 3/8 de SIMPSON COMPOSTO</h1>
 
 </div>
 </div>
@@ -15006,12 +15152,23 @@ $$I = \dfrac{3}{8}h \left[(f_{0} + f_{m}) + 2 \sum_{i = 1}^{\frac{m-3}{3}} f_{3i
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Solu%C3%A7%C3%A3o:">Solu&#231;&#227;o:<a class="anchor-link" href="#Solu%C3%A7%C3%A3o:">&#182;</a></h2>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -15038,7 +15195,7 @@ $$I = \dfrac{3}{8}h \left[(f_{0} + f_{m}) + 2 \sum_{i = 1}^{\frac{m-3}{3}} f_{3i
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -15058,7 +15215,7 @@ $$I = \dfrac{3}{8}h \left[(f_{0} + f_{m}) + 2 \sum_{i = 1}^{\frac{m-3}{3}} f_{3i
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">simpson38</span><span class="p">(</span><span class="n">x0</span><span class="p">,</span><span class="n">xm</span><span class="p">,</span><span class="n">m</span><span class="p">):</span>
@@ -15085,7 +15242,7 @@ $$I = \dfrac{3}{8}h \left[(f_{0} + f_{m}) + 2 \sum_{i = 1}^{\frac{m-3}{3}} f_{3i
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># calcular o valor exato da integral</span>
@@ -15113,7 +15270,7 @@ $$I = \dfrac{3}{8}h \left[(f_{0} + f_{m}) + 2 \sum_{i = 1}^{\frac{m-3}{3}} f_{3i
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -15135,20 +15292,6 @@ $\displaystyle 1.57682115062172$
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Exerc%C3%ADcios">Exerc&#237;cios<a class="anchor-link" href="#Exerc%C3%ADcios">&#182;</a></h2>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size=4>Determine uma aproximação para
-$$\displaystyle\int_{0}^{1.2} e^{x} \cos(2x) dx$$
-utilizando o método 3/8 de Simpson com 12 subdivisões do intervalo de integração.</p>
 
 </div>
 </div>
@@ -15160,8 +15303,7 @@ utilizando o método 3/8 de Simpson com 12 subdivisões do intervalo de integra�
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2><font color = green> Cota para o erro no Método 3/8 de Simpson Composto</h2>
-
+<h2 id="Cota-para-o-erro-no-m%C3%A9todo-de-3/8-Simpson-composto">Cota para o erro no m&#233;todo de 3/8 Simpson composto<a class="anchor-link" href="#Cota-para-o-erro-no-m%C3%A9todo-de-3/8-Simpson-composto">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -15215,7 +15357,7 @@ utilizando a regra 3/8 de Simpson com 6 subintervalos. Em seguida, estime o erro
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span>
@@ -15233,7 +15375,8 @@ utilizando a regra 3/8 de Simpson com 6 subintervalos. Em seguida, estime o erro
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Teorema-Geral-do-Erro">Teorema Geral do Erro<a class="anchor-link" href="#Teorema-Geral-do-Erro">&#182;</a></h1>
+<h1><font color=green>TEOREMA GERAL DO ERRO</h1>
+
 </div>
 </div>
 </div>
@@ -15246,10 +15389,51 @@ utilizando a regra 3/8 de Simpson com 6 subintervalos. Em seguida, estime o erro
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><font size=4>Apresentaremos, aqui, o enunciado do teorema geral do erro para as fórmulas de Newton-Cotes sem demonstrá-la.</p>
 <p><font size=4>Seja $p_{n}$ o polinômio que interpola nos $n+1$ pontos $(x_{i},f(x_{i}))$, com $0 \le i \le n$, em que $f$ é uma função derivável até ordem $n+2$, com estas derivadas contínuas em $[a,b]$. Então</p>
-<p><font size=4>* caso $n$ seja ímpar
+<ul>
+<li><p><font size=4>caso $n$ seja ímpar:
 $$E_{n} = \dfrac{h^{n+2} f^{(n+1)}(\xi)}{(n+1)!} \displaystyle\int_{0}^n \prod_{i = 0}^{n} (u-i) du, \xi \in [a,b]$$</p>
-<p><font size=4>* caso $n$ seja par
+</li>
+<li><p><font size=4>caso $n$ seja par:
 $$E_{n} = \dfrac{h^{n+3} f^{(n+2)}(\xi)}{(n+2)!} \displaystyle\int_{0}^n \left(u - \dfrac{n}{2}\right) \prod_{i = 0}^{n} (u-i) du, \xi \in [a,b].$$</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1><font color=green>EXERCÍCIOS</h1>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Quest%C3%A3o-01">Quest&#227;o 01<a class="anchor-link" href="#Quest%C3%A3o-01">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font size=4>Determine uma aproximação para
+$$\displaystyle\int_{0}^{1.2} e^{x} \cos(2x)\ dx$$
+utilizando o método 3/8 de Simpson com 12 subdivisões do intervalo de integração.</p>
 
 </div>
 </div>
