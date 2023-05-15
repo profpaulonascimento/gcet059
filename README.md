@@ -30,6 +30,8 @@ Por favor, deixe-me saber ([email](mailto:nascimento.p@ufrb.edu.br)) se você te
 
 ### Capítulo 7. Interpolação polinomial
 
+- [Método dos Trapézios](https://profpaulonascimento.github.io/gcet059/html/gcet059_interpolacao_sistemas.html)
+
 ### Capítulo 8. Métodos para encontrar aproximações da integral de uma função real definida em um intervalo
 
 <!-- - [Integração Numérica](https://nbviewer.org/github/profpaulonascimento/gcet059/blob/main/notebooks/GCET059%20integracao.ipynb)
