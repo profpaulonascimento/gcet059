@@ -10,8 +10,8 @@ Por favor, deixe-me saber ([email](mailto:nascimento.p@ufrb.edu.br)) se você te
 
 <!-- ### [Table of Contents](http://nbviewer.jupyter.org/github/jckantor/CBE30338/blob/master/notebooks/toc.ipynb?flush=true)-->
 
-### [Capítulo 1. Iniciando com o python](http://nbviewer.jupyter.org/github/jckantor/CBE30338/blob/master/notebooks/01.00-Getting-Started.ipynb)
-<!--
+### Capítulo 1. Iniciando com o python
+<!--(http://nbviewer.jupyter.org/github/jckantor/CBE30338/blob/master/notebooks/01.00-Getting-Started.ipynb)
 - [1.1 Getting Started with Python and Jupyter Notebooks](http://nbviewer.jupyter.org/github/jckantor/CBE30338/blob/master/notebooks/01.01-Getting-Started-with-Python-and-Jupyter-Notebooks.ipynb)
 - [1.2 Python Basics](http://nbviewer.jupyter.org/github/jckantor/CBE30338/blob/master/notebooks/01.02-Python-Basics.ipynb)
 - [1.3 Python Conditionals and Libraries](http://nbviewer.jupyter.org/github/jckantor/CBE30338/blob/master/notebooks/01.03-Python-Conditionals-and-Libraries.ipynb)
