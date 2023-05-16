@@ -24,9 +24,9 @@
 
         .menu>li>a {
             display: block;
-            padding: 10px 10px;
+            padding: 50px 10px;
             text-decoration: none;
-            color: #333;
+            color: #015174;
         }
 
         .menu>li:hover>.submenu {
