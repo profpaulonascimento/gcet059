@@ -78,44 +78,27 @@
 </nav>
 
 
-<table border="0px" style="width: auto; margin-left: auto; margin-right: auto;" rules="0px" cellspacing="0" cellpadding="2">
-<tbody>
-<tr class="tr-min">
-<td align="center" valign="middle" style="width: 70px;" colspan="11"><span style="font-size: xx-large;"><span style="color: #015174; font-family: Audiowide;">Ambientação</span></span></td>
-</tr>
-</tbody>
-</table>
+ <div class="container-fluid"><!------------- INÍCIO DA SEÇÃO --------------->
 <p></p>
-<table border="0px" style="width: auto; margin-left: auto; margin-right: auto;" rules="0px" cellspacing="0" cellpadding="2">
-<tbody>
-<tr class="tr-min">
-<td>
-<div class="mx-auto"><a href="https://moodle.programaintegre.com.br/mod/page/view.php?id=3045" target="_blank" class="btn btn-primary active rounded" role="button" aria-pressed="true" style="padding: 0.8em; border-radius: 12px; width: 110px; height: 80px; color: #ffffff; background-color: #015174; text-align: center; font-family: Audiowide;">Conversa Inicial</a></div>
-</td>
-<td>
-<div class="mx-auto"><a href="https://meet.google.com/aby-kqdu-ouj" target="_blank" class="btn btn-primary active rounded" role="button" aria-pressed="true" style="padding: 0.8em; border-radius: 12px; width: 100px; height: 80px; color: #ffffff; background-color: #015174; text-align: center; font-family: Audiowide;">Sala de Aula</a></div>
-</td>
-<td>
-<div class="mx-auto"><a href="https://moodle.programaintegre.com.br/mod/forum/view.php?id=3046" target="_blank" class="btn btn-primary active rounded" role="button" aria-pressed="true" style="padding: 0.8em; border-radius: 12px; width: 150px; height: 80px; color: #ffffff; background-color: #015174; text-align: center; font-family: Audiowide;">Fórum de Apresentação</a></div>
-</td>
-<td>
-<div class="mx-auto"><a href="https://moodle.programaintegre.com.br/mod/forum/view.php?id=3047" target="_blank" class="btn btn-primary active rounded" role="button" aria-pressed="true" style="padding: 0.8em; border-radius: 12px; width: 120px; height: 80px; color: #ffffff; background-color: #015174; text-align: center; font-family: Audiowide;">Fórum de Dúvidas</a></div>
-</td>
-<td>
-<div class="mx-auto"><a href="https://moodle.programaintegre.com.br/mod/forum/view.php?id=3048" target="_blank" class="btn btn-primary active rounded" role="button" aria-pressed="true" style="padding: 0.8em; border-radius: 12px; width: 100px; height: 80px; color: #ffffff; background-color: #015174; text-align: center; font-family: Audiowide;">Avisos</a></div>
-</td>
-<td>
-<div class="mx-auto"><a href="https://moodle.programaintegre.com.br/mod/page/view.php?id=3041" target="_blank" class="btn btn-primary active rounded" role="button" aria-pressed="true" style="padding: 0.8em; border-radius: 12px; width: 120px; height: 80px; color: #ffffff; background-color: #015174; text-align: center; font-family: Audiowide;">Plano de Curso</a></div>
-</td>
-<td>
-<div class="mx-auto"><a href="https://moodle.programaintegre.com.br/mod/glossary/view.php?id=3049" target="_blank" class="btn btn-primary active rounded" role="button" aria-pressed="true" style="padding: 0.8em; border-radius: 12px; width: 120px; height: 80px; color: #ffffff; background-color: #015174; text-align: center; font-family: Audiowide;">Biblioteca Virtual</a></div>
-</td>
-<td>
-<div class="mx-auto"><a href="https://moodle.programaintegre.com.br/mod/page/view.php?id=3040&amp;forceview=1" target="_blank" class="btn btn-primary active rounded" role="button" aria-pressed="true" style="padding: 0.8em; border-radius: 12px; width: 140px; height: 80px; color: #ffffff; background-color: #015174; text-align: center; font-family: Audiowide;">Calendário Acadêmico</a></div>
-</td>
-</tr>
-</tbody>
-</table>
+<button type="button" class="btn btn-outline-primary btn-block text-left" data-toggle="collapse" data-target="#bemvindos" aria-expanded="true" style="padding: 6pt; border-radius: 6px;"> <span style="color: #015174; font-family: Audiowide;">Sejam todos bem vindos! </span>
+<div style="padding: 0.04em; border-radius: 5px 5px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); text-align: justify; color: #000000; background-color: #015174;"></div>
+</button>
+<div id="bemvindos" class="out collapse in" aria-expanded="true">
+<p></p>
+<p>Olá,</p>
+<p></p>
+<p>Mais um semestre está começando e é com imensa expectativa que lhes dou boas-vindas!</p>
+<p>Me chamo Paulo Henrique, professor que irá orientá-lo(a) para a compreensão dos conteúdos que compõem a ementa da disciplina de Cálculo Diferencial e Integral IV.</p>
+<p>Com esforço e dedicação, espero que você tenha uma experiência muito exitosa no aprendizado dos conteúdos da disciplina. Que nunca lhe falte a boa disposição, o respeito entre todos e a construção de fortes laços de amizade e que partamos mais ricos e cheios de boas memórias e aprendizagens.</p>
+<p>A disciplina de Cálculo Diferencial e Integral IV aborda assuntos e aplicações relativas às integrais (duplas, triplas, curvilíneas e de superfície)</p>
+<p>$$\displaystyle \int\limits_{S} f(x) dx,$$</p>
+<p>em que \(x \in \mathbb{R}^n,\ n=\{2, 3\}\), \(f\) é uma função escalar ou vetorial e \(S\) é um conjunto que geralmente está contido no domínio desta função.</p>
+<p>A ementa está distribuída em tópicos os quais estarão disponíveis em tempo e os quais cada conteúdo é avaliado através de atividades as quais são atribuídas notas. Para maiores detalhes, inclusive de como as atividades avaliativas serão computadas e o cálculo da nota final, consulte o plano de  curso ou a tabela presente na aba de Avaliações.</p>
+<p>Possui como conhecimentos prévios, diversos conteúdos vistos em disciplinas cursadas anteriormente. Por isso, vemos ela como muito prazerosa e oportuna.</p>
+</div>
+<p></p>
+
+     
 </body>
 </html>
 
