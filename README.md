@@ -77,6 +77,45 @@
 </ul>
 </nav>
 
+
+<table border="0px" style="width: auto; margin-left: auto; margin-right: auto;" rules="0px" cellspacing="0" cellpadding="2">
+<tbody>
+<tr class="tr-min">
+<td align="center" valign="middle" style="width: 70px;" colspan="11"><span style="font-size: xx-large;"><span style="color: #015174; font-family: Audiowide;">Ambientação</span></span></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<table border="0px" style="width: auto; margin-left: auto; margin-right: auto;" rules="0px" cellspacing="0" cellpadding="2">
+<tbody>
+<tr class="tr-min">
+<td>
+<div class="mx-auto"><a href="https://moodle.programaintegre.com.br/mod/page/view.php?id=3045" target="_blank" class="btn btn-primary active rounded" role="button" aria-pressed="true" style="padding: 0.8em; border-radius: 12px; width: 110px; height: 80px; color: #ffffff; background-color: #015174; text-align: center; font-family: Audiowide;">Conversa Inicial</a></div>
+</td>
+<td>
+<div class="mx-auto"><a href="https://meet.google.com/aby-kqdu-ouj" target="_blank" class="btn btn-primary active rounded" role="button" aria-pressed="true" style="padding: 0.8em; border-radius: 12px; width: 100px; height: 80px; color: #ffffff; background-color: #015174; text-align: center; font-family: Audiowide;">Sala de Aula</a></div>
+</td>
+<td>
+<div class="mx-auto"><a href="https://moodle.programaintegre.com.br/mod/forum/view.php?id=3046" target="_blank" class="btn btn-primary active rounded" role="button" aria-pressed="true" style="padding: 0.8em; border-radius: 12px; width: 150px; height: 80px; color: #ffffff; background-color: #015174; text-align: center; font-family: Audiowide;">Fórum de Apresentação</a></div>
+</td>
+<td>
+<div class="mx-auto"><a href="https://moodle.programaintegre.com.br/mod/forum/view.php?id=3047" target="_blank" class="btn btn-primary active rounded" role="button" aria-pressed="true" style="padding: 0.8em; border-radius: 12px; width: 120px; height: 80px; color: #ffffff; background-color: #015174; text-align: center; font-family: Audiowide;">Fórum de Dúvidas</a></div>
+</td>
+<td>
+<div class="mx-auto"><a href="https://moodle.programaintegre.com.br/mod/forum/view.php?id=3048" target="_blank" class="btn btn-primary active rounded" role="button" aria-pressed="true" style="padding: 0.8em; border-radius: 12px; width: 100px; height: 80px; color: #ffffff; background-color: #015174; text-align: center; font-family: Audiowide;">Avisos</a></div>
+</td>
+<td>
+<div class="mx-auto"><a href="https://moodle.programaintegre.com.br/mod/page/view.php?id=3041" target="_blank" class="btn btn-primary active rounded" role="button" aria-pressed="true" style="padding: 0.8em; border-radius: 12px; width: 120px; height: 80px; color: #ffffff; background-color: #015174; text-align: center; font-family: Audiowide;">Plano de Curso</a></div>
+</td>
+<td>
+<div class="mx-auto"><a href="https://moodle.programaintegre.com.br/mod/glossary/view.php?id=3049" target="_blank" class="btn btn-primary active rounded" role="button" aria-pressed="true" style="padding: 0.8em; border-radius: 12px; width: 120px; height: 80px; color: #ffffff; background-color: #015174; text-align: center; font-family: Audiowide;">Biblioteca Virtual</a></div>
+</td>
+<td>
+<div class="mx-auto"><a href="https://moodle.programaintegre.com.br/mod/page/view.php?id=3040&amp;forceview=1" target="_blank" class="btn btn-primary active rounded" role="button" aria-pressed="true" style="padding: 0.8em; border-radius: 12px; width: 140px; height: 80px; color: #ffffff; background-color: #015174; text-align: center; font-family: Audiowide;">Calendário Acadêmico</a></div>
+</td>
+</tr>
+</tbody>
+</table>
 </body>
 </html>
 
