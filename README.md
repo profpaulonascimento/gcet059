@@ -78,7 +78,7 @@
 </nav>
 
 
- <div class="container-fluid"><!------------- INÍCIO DA SEÇÃO --------------->
+<div class="container-fluid"><!------------- INÍCIO DA SEÇÃO --------------->
 <p></p>
 <button type="button" class="btn btn-outline-primary btn-block text-left" data-toggle="collapse" data-target="#bemvindos" aria-expanded="true" style="padding: 6pt; border-radius: 6px;"> <span style="color: #015174; font-family: Audiowide;">Sejam todos bem vindos! </span>
 <div style="padding: 0.04em; border-radius: 5px 5px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); text-align: justify; color: #000000; background-color: #015174;"></div>
@@ -96,7 +96,8 @@
 <p>A ementa está distribuída em tópicos os quais estarão disponíveis em tempo e os quais cada conteúdo é avaliado através de atividades as quais são atribuídas notas. Para maiores detalhes, inclusive de como as atividades avaliativas serão computadas e o cálculo da nota final, consulte o plano de  curso ou a tabela presente na aba de Avaliações.</p>
 <p>Possui como conhecimentos prévios, diversos conteúdos vistos em disciplinas cursadas anteriormente. Por isso, vemos ela como muito prazerosa e oportuna.</p>
 </div>
-<p></p>
+</div>
+</div>
 
      
 </body>
