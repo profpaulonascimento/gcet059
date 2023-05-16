@@ -64,10 +64,13 @@
 <li><a href="#">Capítulo 4</a></li>
 <li><a href="#">Capítulo 5</a></li>
 <li><a href="#">Capítulo 6</a></li>
-<li><a href="#">Capítulo 7</a></li>
+<li><a href="#">Capítulo 7</a>
+    <ul class="submenu">
+        <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_interpolacao_sistemas.html" target="_blank">Utilizando Sistemas Lineares</a></li>
+    </ul>
+</li>
 <li><a href="#">Capítulo 8</a> <!--Métodos para encontrar aproximações da integral de uma função real definida em um intervalo</a>-->
     <ul class="submenu">
-    <li><a href="#">Métodos para encontrar aproximações da integral de uma função real definida em um intervalo</a></li>
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_trapezios.html" target="_blank">Método dos Trapézios</a></li>
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_13simpson.html" target="_blank">Método 1/3 de Simpson</a></li>
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_38simpson.html" target="_blank">Método 3/8 de Simpson</a></li>    
@@ -77,28 +80,6 @@
 </ul>
 </nav>
 
-
-<div class="container-fluid"><!------------- INÍCIO DA SEÇÃO --------------->
-<p></p>
-<button type="button" class="btn btn-outline-primary btn-block text-left" data-toggle="collapse" data-target="#bemvindos" aria-expanded="true" style="padding: 6pt; border-radius: 6px;"> <span style="color: #015174; font-family: Audiowide;">Sejam todos bem vindos! </span>
-<div style="padding: 0.04em; border-radius: 5px 5px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); text-align: justify; color: #000000; background-color: #015174;"></div>
-</button>
-<div id="bemvindos" class="out collapse in">
-<p></p>
-<p>Olá,</p>
-<p></p>
-<p>Mais um semestre está começando e é com imensa expectativa que lhes dou boas-vindas!</p>
-<p>Me chamo Paulo Henrique, professor que irá orientá-lo(a) para a compreensão dos conteúdos que compõem a ementa da disciplina de Cálculo Diferencial e Integral IV.</p>
-<p>Com esforço e dedicação, espero que você tenha uma experiência muito exitosa no aprendizado dos conteúdos da disciplina. Que nunca lhe falte a boa disposição, o respeito entre todos e a construção de fortes laços de amizade e que partamos mais ricos e cheios de boas memórias e aprendizagens.</p>
-<p>A disciplina de Cálculo Diferencial e Integral IV aborda assuntos e aplicações relativas às integrais (duplas, triplas, curvilíneas e de superfície)</p>
-<p>$$\displaystyle \int\limits_{S} f(x) dx,$$</p>
-<p>em que \(x \in \mathbb{R}^n,\ n=\{2, 3\}\), \(f\) é uma função escalar ou vetorial e \(S\) é um conjunto que geralmente está contido no domínio desta função.</p>
-<p>A ementa está distribuída em tópicos os quais estarão disponíveis em tempo e os quais cada conteúdo é avaliado através de atividades as quais são atribuídas notas. Para maiores detalhes, inclusive de como as atividades avaliativas serão computadas e o cálculo da nota final, consulte o plano de  curso ou a tabela presente na aba de Avaliações.</p>
-<p>Possui como conhecimentos prévios, diversos conteúdos vistos em disciplinas cursadas anteriormente. Por isso, vemos ela como muito prazerosa e oportuna.</p>
-</div>
-</div>
-
-     
 </body>
 </html>
 
@@ -110,15 +91,14 @@ Os links abaixo exibem os blocos de anotações como páginas da Web HTML normai
 
 Por favor, deixe-me saber ([email](mailto:nascimento.p@ufrb.edu.br)) se você tem alguma opinião ou sugestão sobre como esses notebooks podem ser melhorados para ensinar e aprender a teoria que envolve o Cálculo Numérico.
 
-<!-- ### [Table of Contents](http://nbviewer.jupyter.org/github/jckantor/CBE30338/blob/master/notebooks/toc.ipynb?flush=true)-->
+<!-- ### [Table of Contents](http://nbviewer.jupyter.org/github/jckantor/CBE30338/blob/master/notebooks/toc.ipynb?flush=true)
 
-### Capítulo 1. Iniciando com o python
-<!--(http://nbviewer.jupyter.org/github/jckantor/CBE30338/blob/master/notebooks/01.00-Getting-Started.ipynb)
+## Capítulo 1. Iniciando com o python
+(http://nbviewer.jupyter.org/github/jckantor/CBE30338/blob/master/notebooks/01.00-Getting-Started.ipynb)
 - [1.1 Getting Started with Python and Jupyter Notebooks](http://nbviewer.jupyter.org/github/jckantor/CBE30338/blob/master/notebooks/01.01-Getting-Started-with-Python-and-Jupyter-Notebooks.ipynb)
 - [1.2 Python Basics](http://nbviewer.jupyter.org/github/jckantor/CBE30338/blob/master/notebooks/01.02-Python-Basics.ipynb)
 - [1.3 Python Conditionals and Libraries](http://nbviewer.jupyter.org/github/jckantor/CBE30338/blob/master/notebooks/01.03-Python-Conditionals-and-Libraries.ipynb)
 - [1.4 Python Numeric Integration Revisited](http://nbviewer.jupyter.org/github/jckantor/CBE30338/blob/master/notebooks/01.04-Python-Numeric-Integration-Revisited.ipynb)
--->
 
 ### Capítulo 2. Representação de números
 
@@ -132,12 +112,12 @@ Por favor, deixe-me saber ([email](mailto:nascimento.p@ufrb.edu.br)) se você te
 
 ### Capítulo 7. Interpolação polinomial
 
-- [Utilizando Sintemas Lineares](https://profpaulonascimento.github.io/gcet059/html/gcet059_interpolacao_sistemas.html)
+- [Utilizando Sistemas Lineares](https://profpaulonascimento.github.io/gcet059/html/gcet059_interpolacao_sistemas.html)
 
 ### Capítulo 8. Métodos para encontrar aproximações da integral de uma função real definida em um intervalo
 
-<!-- - [Integração Numérica](https://nbviewer.org/github/profpaulonascimento/gcet059/blob/main/notebooks/GCET059%20integracao.ipynb)
-- [Integração - Método dos Trapézios](https://nbviewer.org/github/profpaulonascimento/gcet059/blob/main/gcet059_integracao_metododostrapezios.ipynb)-->
+- [Integração Numérica](https://nbviewer.org/github/profpaulonascimento/gcet059/blob/main/notebooks/GCET059%20integracao.ipynb)
+- [Integração - Método dos Trapézios](https://nbviewer.org/github/profpaulonascimento/gcet059/blob/main/gcet059_integracao_metododostrapezios.ipynb)
 - [Método dos Trapézios](https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_trapezios.html)
 - [Método 1/3 de Simpson](https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_13simpson.html)
 - [Método 3/8 de Simpson](https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_38simpson.html)
@@ -145,9 +125,6 @@ Por favor, deixe-me saber ([email](mailto:nascimento.p@ufrb.edu.br)) se você te
 ### Capítulo 9. Métodos para encontrar a solução de problemas de valores iniciais
 
 ### Capítulo 10. Métodos para encontrar a solução de problemas de valores de contorno
-
-
-
 
 
 
