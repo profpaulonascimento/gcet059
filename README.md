@@ -83,7 +83,7 @@
 <button type="button" class="btn btn-outline-primary btn-block text-left" data-toggle="collapse" data-target="#bemvindos" aria-expanded="true" style="padding: 6pt; border-radius: 6px;"> <span style="color: #015174; font-family: Audiowide;">Sejam todos bem vindos! </span>
 <div style="padding: 0.04em; border-radius: 5px 5px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); text-align: justify; color: #000000; background-color: #015174;"></div>
 </button>
-<div id="bemvindos" class="out collapse in" aria-expanded="true">
+<div id="bemvindos" class="out collapse in">
 <p></p>
 <p>Olá,</p>
 <p></p>
