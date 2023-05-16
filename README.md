@@ -4,7 +4,7 @@
 
 
 <html lang="en">
-
+<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet" />
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,7 +24,7 @@
 
         .menu>li>a {
             display: block;
-            padding: 10px 30px;
+            padding: 10px 10px;
             text-decoration: none;
             color: #333;
         }
@@ -67,7 +67,7 @@
 <li><a href="#">Capítulo 7</a></li>
 <li><a href="#">Capítulo 8</a> <!--Métodos para encontrar aproximações da integral de uma função real definida em um intervalo</a>-->
     <ul class="submenu">
-        <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_trapezios.html" target="_blank">Método dos Trapézios</a></li>
+        <li style="font-family: Audiowide><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_trapezios.html" target="_blank">Método dos Trapézios</a></li>
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_13simpson.html" target="_blank">Método 1/3 de Simpson</a></li>
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_38simpson.html" target="_blank">Método 3/8 de Simpson</a></li>    
     </ul>
