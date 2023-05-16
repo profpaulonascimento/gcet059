@@ -68,11 +68,9 @@
 <li><a href="#">Capítulo 8</a> <!--Métodos para encontrar aproximações da integral de uma função real definida em um intervalo</a>-->
     <ul class="submenu">
     <li><a href="#">Métodos para encontrar aproximações da integral de uma função real definida em um intervalo</a></li>
-        <ul class="submenu">
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_trapezios.html" target="_blank">Método dos Trapézios</a></li>
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_13simpson.html" target="_blank">Método 1/3 de Simpson</a></li>
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_38simpson.html" target="_blank">Método 3/8 de Simpson</a></li>    
-        </ul>
     </ul>
 </li>
 <li><a href="#">Item</a></li>
