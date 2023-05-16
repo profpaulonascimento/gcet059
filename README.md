@@ -24,7 +24,7 @@
 
         .menu>li>a {
             display: block;
-            padding: 50px 10px;
+            padding: 10px 10px;
             text-decoration: none;
             color: #015174;
         }
@@ -48,7 +48,7 @@
         }
 
         .submenu>li>a {
-            color: #333;
+            color: #015174;
             text-decoration: none;
         }
     </style>
