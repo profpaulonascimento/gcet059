@@ -37,6 +37,7 @@
             display: none;
             position: absolute;
             top: 100%;
+            width: 250px;
             left: 0;
             background-color: #fff;
             padding: 10px;
