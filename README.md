@@ -188,45 +188,8 @@ No menu acima, podemos acessar notebooks Python como páginas da Web HTML normai
 </ul>
 </details>
 
+####
 
 Por favor, deixe-me saber ([email](mailto:nascimento.p@ufrb.edu.br)) se você tem alguma opinião ou sugestão sobre como esses notebooks podem ser melhorados para ensinar e aprender a teoria que envolve o Cálculo Numérico.
 
-<!-- Menu Lateral -->
-* [Home](#home)
-* [Produtos](#produtos)
-  * [Eletrônicos](#eletrônicos)
-    * [Televisões](#televisões)
-    * [Smartphones](#smartphones)
-  * [Roupas](#roupas)
-    * [Masculinas](#masculinas)
-    * [Femininas](#femininas)
-* [Contato](#contato)
-
-<!-- Seções -->
-## Home
-Conteúdo da página inicial.
-
-## Produtos
-Lista de produtos disponíveis.
-
-### Eletrônicos
-Eletrônicos em geral.
-
-#### Televisões
-Modelos de televisões disponíveis.
-
-#### Smartphones
-Modelos de smartphones disponíveis.
-
-### Roupas
-Roupas em geral.
-
-#### Masculinas
-Roupas masculinas disponíveis.
-
-#### Femininas
-Roupas femininas disponíveis.
-
-## Contato
-Informações de contato.
 
