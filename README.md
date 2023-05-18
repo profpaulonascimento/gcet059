@@ -104,6 +104,7 @@
 <li><a href="#">Capítulo 07</a>
     <ul class="submenu">
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_interpolacao_sistemas.html" target="_blank">Utilizando Sistemas Lineares</a></li>
+        <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_interpolacao_lagrange.html" target="_blank">Utilizando a forma de Lagrange</a></li>
     </ul>
 </li>
 
