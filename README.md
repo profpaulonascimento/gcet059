@@ -4,7 +4,6 @@
 ## <span style="color: #015174; font-family: Audiowide;">GCET059 Cálculo Numérico</span>
 
 <html lang="en">
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +17,6 @@
         font-weight:100;
         font-family: Roboto;
     }
-
     .menu>li>a {
         display: block;
         padding: 20px 1px;
@@ -28,11 +26,9 @@
         font-weight:300;
         font-family: Roboto;
     }
-
     .menu>li:hover>.submenu {
         display: block;
     }
-
     .submenu {
         display: none;
         position: absolute;
@@ -42,17 +38,15 @@
         background-color: #fff;
         padding: 8px;
     }
-
     .submenu>li {
         display: block;
         margin-bottom: 10px;
     }
-
     .submenu>li>a {
         color: #085174;
         text-decoration: none;
     }
-</style>
+    </style>
 
 <nav>
 <ul class="menu">
@@ -119,7 +113,6 @@
     </ul>
 </li>
 
-
 <li><a href="#">CAPÍTULO 09</a></li>
     <ul class="submenu">
         <li><a href="" target="_blank">Teoria das equações diferenciais</a></li>
@@ -147,7 +140,7 @@
 </html>
 
 
-Este repositório compreende uma coleção de notebooks Python em suporte à disciplina **GCET059 Cálculo Numérico**, um curso ministrado pelo professor Paulo Nascimento na [Universidade Federal do Recôncavo da Bahia](https://ufrb.edu.br) para os cursos do Centro de Ciências Exatas e Tecnológicas. <!-- Observe que há um site complementar [**CBE 32338 Process Control Laboratory**](https://jckantor.github.io/CBE32338/) com notebooks adicionais demonstrando a implementação prática desses conceitos usando o Temperature Control Laboratory.-->
+Este repositório compreende uma coleção de notebooks Python em suporte à disciplina **GCET059 Cálculo Numérico**, um curso ministrado pelo professor Paulo Nascimento na [Universidade Federal do Recôncavo da Bahia](https://ufrb.edu.br) para os cursos do [Centro de Ciências Exatas e Tecnológicas](https://ufrb.edu.br/cetec/). <!-- Observe que há um site complementar [**CBE 32338 Process Control Laboratory**](https://jckantor.github.io/CBE32338/) com notebooks adicionais demonstrando a implementação prática desses conceitos usando o Temperature Control Laboratory.-->
 
 No menu acima, podemos acessar notebooks Python como páginas da Web HTML normais. Caso desejemos, poderemos executar o notebook no [Google Colaboratory](https://colab.research.google.com) ou fazer o download para executar em seu próprio laptop. Para executar em seu próprio laptop, você precisará instalar Jupyter e Python 3, como a excelente [distribuição Anaconda da Continuum Analytics](https://www.continuum.io/downloads). Os notebooks estão dispostos da seguinte maneira:
 
