@@ -144,6 +144,8 @@
 </ul>
 </nav>
 
+</html>
+
 
 <div style="font-family: Helvetica; font-size:14px;">
 <p>Este repositório compreende uma coleção de notebooks Python em suporte à disciplina **GCET059 Cálculo Numérico**, um curso ministrado na Universidade Federal do Recôncavo da Bahia. <!-- Observe que há um site complementar [**CBE 32338 Process Control Laboratory**](https://jckantor.github.io/CBE32338/) com notebooks adicionais demonstrando a implementação prática desses conceitos usando o Temperature Control Laboratory.-->
@@ -180,5 +182,3 @@
 </p>
 </div>
 
-
-</html>
