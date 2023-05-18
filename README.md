@@ -62,7 +62,7 @@
     </ul>
 <li><a href="#">CAPÍTULO 02</a></li>
     <ul class="submenu">
-        <li><a href="" target="_blank">Sistemas de numeração</a></li>
+        <li><a href="https://profpaulonascimento.github.io/gcet059" target="_blank">Sistemas de numeração</a></li>
         <li><a href="" target="_blank">Conversão de base</a></li>
         <li><a href="" target="_blank">Representação em ponto fixo</a></li>
         <li><a href="" target="_blank">Representação em ponto flutuante</a></li>
@@ -97,7 +97,7 @@
 
 <li><a href="#">CAPÍTULO 06</a></li>
     <ul class="submenu">
-        <li><a href="" target="_blank">Quadrados mínimos</a></li>
+        <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_quadrados_minimos.html" target="_blank">Quadrados mínimos</a></li>
     </ul>
 
 
