@@ -23,7 +23,7 @@
         display: block;
         padding: 20px 1px;
         text-decoration: none;
-        color: red;
+        color: #015174;
         font-size:14px;
         font-weight:300;
         font-family: Roboto;
