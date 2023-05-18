@@ -56,11 +56,11 @@
 
 <nav>
 <ul class="menu">
-<li><a href="#">Capítulo 01</a></li>
+<li><a href="#">CAPÍTULO 01</a></li>
     <ul class="submenu">
         <li><a href="" target="_blank">Python para a disciplina</a></li>
     </ul>
-<li><a href="#">Capítulo 02</a></li>
+<li><a href="#">CAPÍTULO 02</a></li>
     <ul class="submenu">
         <li><a href="" target="_blank">Sistemas de numeração</a></li>
         <li><a href="" target="_blank">Conversão de base</a></li>
@@ -72,7 +72,7 @@
         <li><a href="" target="_blank">Efeitos das operações em máquinas</a></li>
     </ul>
 
-<li><a href="#">Capítulo 03</a></li>
+<li><a href="#">CAPÍTULO 03</a></li>
     <ul class="submenu">
         <li><a href="" target="_blank">Isolamento do zero de uma função</a></li>
         <li><a href="" target="_blank">Bisseção</a></li>
@@ -82,26 +82,26 @@
         <li><a href="" target="_blank">Secantes</a></li>
     </ul>
 
-<li><a href="#">Capítulo 04</a></li>
+<li><a href="#">CAPÍTULO 04</a></li>
     <ul class="submenu">
         <li><a href="" target="_blank">Sistemas lineares</a></li>
         <li><a href="" target="_blank"></a></li>
     </ul>
 
-<li><a href="#">Capítulo 05</a></li>
+<li><a href="#">CAPÍTULO 05</a></li>
     <ul class="submenu">
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_interpolacao_sistemas.html" target="_blank">Utilizando Sistemas Lineares</a></li>
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_interpolacao_lagrange.html" target="_blank">Utilizando a forma de Lagrange</a></li>
     </ul>
 
 
-<li><a href="#">Capítulo 06</a></li>
+<li><a href="#">CAPÍTULO 06</a></li>
     <ul class="submenu">
         <li><a href="" target="_blank">Quadrados mínimos</a></li>
     </ul>
 
 
-<li><a href="#">Capítulo 07</a> <!--Métodos para encontrar aproximações da integral de uma função real definida em um intervalo</a>-->
+<li><a href="#">CAPÍTULO 07</a> <!--Métodos para encontrar aproximações da integral de uma função real definida em um intervalo</a>-->
     <ul class="submenu">
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_trapezios.html" target="_blank">Método dos Trapézios</a></li>
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_13simpson.html" target="_blank">Método 1/3 de Simpson</a></li>
@@ -109,7 +109,7 @@
     </ul>
 </li>
 
-<li><a href="#">Capítulo 08</a>
+<li><a href="#">CAPÍTULO 08</a>
     <ul class="submenu">
         <li><a href="" target="_blank">Diferença finita para a derivada primeira</a></li>
         <li><a href="" target="_blank">Diferença finita para a derivada segunda</a></li>
@@ -120,7 +120,7 @@
 </li>
 
 
-<li><a href="#">Capítulo 09</a></li>
+<li><a href="#">CAPÍTULO 09</a></li>
     <ul class="submenu">
         <li><a href="" target="_blank">Teoria das equações diferenciais</a></li>
         <li><a href="" target="_blank">O método de Euler</a></li>
@@ -137,7 +137,7 @@
         <li><a href="" target="_blank">Sistemas de equações diferenciais ordinárias e equações de ordem superior</a></li>
     </ul>
 
- <li><a href="#">Capítulo 10</a></li>
+ <li><a href="#">CAPÍTULO 10</a></li>
     <ul class="submenu">
         <li><a href="" target="_blank">Método de diferenças finitas</a></li>
     </ul>
@@ -173,8 +173,6 @@
 * CAPÍTULO 09: Problema de valor inicial
 
 * CAPÍTULO 10: Problemas de valores de contorno
-
-
 
 
 
