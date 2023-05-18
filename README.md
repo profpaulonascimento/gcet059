@@ -2,7 +2,6 @@
 
 ## <span style="color: #015174; font-family: Audiowide;">GCET059 Cálculo Numérico</span>
 
-
 <html lang="en">
 <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet" />
 <head>
@@ -27,6 +26,9 @@
             padding: 10px 10px;
             text-decoration: none;
             color: #015174;
+            font-size:13px;
+            color:blue;
+            font-weight:100;
         }
 
         .menu>li:hover>.submenu {
@@ -40,7 +42,7 @@
             width: 270px;
             left: 0;
             background-color: #fff;
-            padding: 10px;
+            padding: 8px;
         }
 
         .submenu>li {
