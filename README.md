@@ -69,13 +69,15 @@
 
 <nav>
 <ul class="menu">
-<li><a href="#">CAPÍTULO 01</a></li>
+<li><a href="#">CAPÍTULO 01</a>
     <ul class="submenu">
         <li><a href="" target="_blank">Python para a disciplina</a></li>
     </ul>
-<li><a href="#">CAPÍTULO 02</a></li>
+</li>
+
+<li><a href="#">CAPÍTULO 02</a>
     <ul class="submenu">
-        <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_interpolacao_lagrange.html" target="_blank">Sistemas de numeração</a></li>
+        <li><a href="https://profpaulonascimento.github.io/gcet059/" target="_blank">Sistemas de numeração</a></li>
         <li><a href="" target="_blank">Conversão de base</a></li>
         <li><a href="" target="_blank">Representação em ponto fixo</a></li>
         <li><a href="" target="_blank">Representação em ponto flutuante</a></li>
@@ -84,8 +86,9 @@
         <li><a href="" target="_blank">Operações aritméticas em ponto flutuante</a></li>
         <li><a href="" target="_blank">Efeitos das operações em máquinas</a></li>
     </ul>
-
-<li><a href="#">CAPÍTULO 03</a></li>
+</li>
+    
+<li><a href="#">CAPÍTULO 03</a>
     <ul class="submenu">
         <li><a href="" target="_blank">Isolamento do zero de uma função</a></li>
         <li><a href="" target="_blank">Bisseção</a></li>
@@ -94,25 +97,27 @@
         <li><a href="" target="_blank">Newton-Raphson</a></li>
         <li><a href="" target="_blank">Secantes</a></li>
     </ul>
+</li>
 
-<li><a href="#">CAPÍTULO 04</a></li>
+<li><a href="#">CAPÍTULO 04</a>
     <ul class="submenu">
         <li><a href="" target="_blank">Sistemas lineares</a></li>
         <li><a href="" target="_blank"></a></li>
     </ul>
+</li>
 
-<li><a href="#">CAPÍTULO 05</a></li>
+<li><a href="#">CAPÍTULO 05</a>
     <ul class="submenu">
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_interpolacao_sistemas.html" target="_blank">Utilizando Sistemas Lineares</a></li>
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_interpolacao_lagrange.html" target="_blank">Utilizando a forma de Lagrange</a></li>
     </ul>
+</li>
 
-
-<li><a href="#">CAPÍTULO 06</a></li>
+<li><a href="#">CAPÍTULO 06</a>
     <ul class="submenu">
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_quadrados_minimos.html" target="_blank">Quadrados mínimos</a></li>
     </ul>
-
+</li>
 
 <li><a href="#">CAPÍTULO 07</a> <!--Métodos para encontrar aproximações da integral de uma função real definida em um intervalo</a>-->
     <ul class="submenu">
@@ -132,7 +137,7 @@
     </ul>
 </li>
 
-<li><a href="#">CAPÍTULO 09</a></li>
+<li><a href="#">CAPÍTULO 09</a>
     <ul class="submenu">
         <li><a href="" target="_blank">Teoria das equações diferenciais</a></li>
         <li><a href="" target="_blank">O método de Euler</a></li>
@@ -148,11 +153,14 @@
         <li><a href="" target="_blank">Os métodos de Runge-Kutta</a></li>
         <li><a href="" target="_blank">Sistemas de equações diferenciais ordinárias e equações de ordem superior</a></li>
     </ul>
-
- <li><a href="#">CAPÍTULO 10</a></li>
+</li>
+ 
+ <li><a href="#">CAPÍTULO 10</a>
     <ul class="submenu">
         <li><a href="" target="_blank">Método de diferenças finitas</a></li>
     </ul>
+</li>
+    
 </ul>
 </nav>
 </body>
