@@ -154,14 +154,23 @@ No menu de Capítulos acima, poderemos acessar notebooks Python como páginas da
 
 
 * <font size=3>CAPÍTULO 01: Python para a disciplina
+    
 * <font size=3>CAPÍTULO 02: Representação de números e aritmética em máquinas
+    
 * <font size=3>CAPÍTULO 03: Métodos numéricos para determinar a solução aproximada de uma equação
+    
 * <font size=3>CAPÍTULO 04: Métodos numéricos para determinar a solução aproximada de um sistema de equações lineares
+    
 * <font size=3>CAPÍTULO 05: Interpolaçao polinomial
+    
 * <font size=3>CAPÍTULO 06: Quadrados mínimos
+    
 * <font size=3>CAPÍTULO 07: Integração numérica
+    
 * <font size=3>CAPÍTULO 08: Derivação numérica
+    
 * <font size=3>CAPÍTULO 09: Problema de valor inicial
+    
 * <font size=3>CAPÍTULO 10: Problemas de valores de contorno
 
 <font size=3>
