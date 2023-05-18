@@ -147,7 +147,7 @@
 </html>
 
 
-Este repositório compreende uma coleção de notebooks Python em suporte à disciplina **GCET059 Cálculo Numérico**, um curso ministrado na Universidade Federal do Recôncavo da Bahia. <!-- Observe que há um site complementar [**CBE 32338 Process Control Laboratory**](https://jckantor.github.io/CBE32338/) com notebooks adicionais demonstrando a implementação prática desses conceitos usando o Temperature Control Laboratory.-->
+Este repositório compreende uma coleção de notebooks Python em suporte à disciplina **GCET059 Cálculo Numérico**, um curso ministrado pelo professor Paulo Nascimento na [Universidade Federal do Recôncavo da Bahia](https://ufrb.edu.br) para os cursos do Centro de Ciências Exatas e Tecnológicas. <!-- Observe que há um site complementar [**CBE 32338 Process Control Laboratory**](https://jckantor.github.io/CBE32338/) com notebooks adicionais demonstrando a implementação prática desses conceitos usando o Temperature Control Laboratory.-->
 
 
 No menu de Capítulos acima, poderemos acessar notebooks Python como páginas da Web HTML normais. Caso desejemos, poderemos executar o notebook no [Google Colaboratory](https://colab.research.google.com) ou fazer o download para executar em seu próprio laptop. Para executar em seu próprio laptop, você precisará instalar Jupyter e Python 3, como a excelente [distribuição Anaconda da Continuum Analytics](https://www.continuum.io/downloads). Os notebooks estão dispostos da seguinte maneira:
