@@ -10,6 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <style>
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
         .menu>li {
             display: inline-block;
             position: relative;
