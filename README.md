@@ -4,49 +4,53 @@
 ## <span style="color: #015174; font-family: Audiowide;">GCET059 Cálculo Numérico</span>
 
 <html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <style>
-    .menu>li {
-        display: inline-block;
-        position: relative;
-        font-size:14px;
-        color:#015174;
-        font-weight:100;
-        font-family: Roboto;
-    }
-    .menu>li>a {
-        display: block;
-        padding: 20px 1px;
-        text-decoration: none;
-        color: #015174;
-        font-size:14px;
-        font-weight:300;
-        font-family: Roboto;
-    }
-    .menu>li:hover>.submenu {
-        display: block;
-    }
-    .submenu {
-        display: none;
-        position: absolute;
-        top: 100%;
-        width: 270px;
-        left: 0;
-        background-color: #fff;
-        padding: 8px;
-    }
-    .submenu>li {
-        display: block;
-        margin-bottom: 10px;
-    }
-    .submenu>li>a {
-        color: #085174;
-        text-decoration: none;
-    }
+        .menu>li {
+            display: inline-block;
+            position: relative;
+            font-size:14px;
+            color:#015174;
+            font-weight:100;
+            font-family: Roboto;
+        }
+        .menu>li>a {
+            display: block;
+            padding: 20px 1px;
+            text-decoration: none;
+            color: #015174;
+            font-size:14px;
+            font-weight:300;
+            font-family: Roboto;
+        }
+        .menu>li:hover>.submenu {
+            display: block;
+        }
+        .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            width: 270px;
+            left: 0;
+            background-color: #fff;
+            padding: 8px;
+        }
+        .submenu>li {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .submenu>li>a {
+            color: #085174;
+            text-decoration: none;
+        }
     </style>
+</head>
+
+<body>
 
 <nav>
 <ul class="menu">
@@ -136,7 +140,7 @@
     </ul>
 </ul>
 </nav>
-
+</body>
 </html>
 
 
