@@ -62,7 +62,7 @@
     </ul>
 <li><a href="#">CAPÍTULO 02</a></li>
     <ul class="submenu">
-        <li><a href="https://profpaulonascimento.github.io/gcet059" target="_blank">Sistemas de numeração</a></li>
+        <li><a href="https://profpaulonascimento.github.io/gcet059/" target="_blank">Sistemas de numeração</a></li>
         <li><a href="" target="_blank">Conversão de base</a></li>
         <li><a href="" target="_blank">Representação em ponto fixo</a></li>
         <li><a href="" target="_blank">Representação em ponto flutuante</a></li>
@@ -149,8 +149,7 @@
 
 Este repositório compreende uma coleção de notebooks Python em suporte à disciplina **GCET059 Cálculo Numérico**, um curso ministrado pelo professor Paulo Nascimento na [Universidade Federal do Recôncavo da Bahia](https://ufrb.edu.br) para os cursos do Centro de Ciências Exatas e Tecnológicas. <!-- Observe que há um site complementar [**CBE 32338 Process Control Laboratory**](https://jckantor.github.io/CBE32338/) com notebooks adicionais demonstrando a implementação prática desses conceitos usando o Temperature Control Laboratory.-->
 
-
-No menu de Capítulos acima, poderemos acessar notebooks Python como páginas da Web HTML normais. Caso desejemos, poderemos executar o notebook no [Google Colaboratory](https://colab.research.google.com) ou fazer o download para executar em seu próprio laptop. Para executar em seu próprio laptop, você precisará instalar Jupyter e Python 3, como a excelente [distribuição Anaconda da Continuum Analytics](https://www.continuum.io/downloads). Os notebooks estão dispostos da seguinte maneira:
+No menu acima, podemos acessar notebooks Python como páginas da Web HTML normais. Caso desejemos, poderemos executar o notebook no [Google Colaboratory](https://colab.research.google.com) ou fazer o download para executar em seu próprio laptop. Para executar em seu próprio laptop, você precisará instalar Jupyter e Python 3, como a excelente [distribuição Anaconda da Continuum Analytics](https://www.continuum.io/downloads). Os notebooks estão dispostos da seguinte maneira:
 
 
 * CAPÍTULO 01: Python para a disciplina
