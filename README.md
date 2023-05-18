@@ -15,6 +15,7 @@
             margin: 0;
             padding: 0;
         }
+
         .menu>li {
             display: inline-block;
             position: relative;
@@ -23,6 +24,7 @@
             font-weight:100;
             font-family: Roboto;
         }
+
         .menu>li>a {
             display: block;
             padding: 20px 1px;
@@ -32,9 +34,11 @@
             font-weight:300;
             font-family: Roboto;
         }
+        
         .menu>li:hover>.submenu {
             display: block;
         }
+        
         .submenu {
             display: none;
             position: absolute;
@@ -44,10 +48,12 @@
             background-color: #fff;
             padding: 8px;
         }
+        
         .submenu>li {
             display: block;
             margin-bottom: 10px;
         }
+        
         .submenu>li>a {
             color: #085174;
             text-decoration: none;
