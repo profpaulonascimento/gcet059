@@ -173,13 +173,13 @@ No menu acima, podemos acessar notebooks Python como páginas da Web HTML normai
 
 <details>
 
-<summary>Descrição do capítulos</summary>
+<summary>DESCRIÇÃO DOS CAPÍTULOS</summary>
 
-* CAPÍTULO 01: Python para a disciplina
+- CAPÍTULO 01: Python para a disciplina</br>
     
-* CAPÍTULO 02: Representação de números e aritmética em máquinas
+- CAPÍTULO 02: Representação de números e aritmética em máquinas
     
-* CAPÍTULO 03: Métodos numéricos para determinar a solução aproximada de uma equação
+- CAPÍTULO 03: Métodos numéricos para determinar a solução aproximada de uma equação
     
 * CAPÍTULO 04: Métodos numéricos para determinar a solução aproximada de um sistema de equações lineares
     
