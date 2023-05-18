@@ -172,29 +172,20 @@ Este repositório compreende uma coleção de notebooks Python em suporte à dis
 No menu acima, podemos acessar notebooks Python como páginas da Web HTML normais. Caso desejemos, poderemos executar o notebook no [Google Colaboratory](https://colab.research.google.com) ou fazer o download para executar em seu próprio laptop. Para executar em seu próprio laptop, você precisará instalar Jupyter e Python 3, como a excelente [distribuição Anaconda da Continuum Analytics](https://www.continuum.io/downloads). Os notebooks estão dispostos da seguinte maneira:
 
 <details>
-
 <summary>DESCRIÇÃO DOS CAPÍTULOS</summary>
 
-- CAPÍTULO 01: Python para a disciplina</br>
-    
-- CAPÍTULO 02: Representação de números e aritmética em máquinas
-    
-- CAPÍTULO 03: Métodos numéricos para determinar a solução aproximada de uma equação
-    
-* CAPÍTULO 04: Métodos numéricos para determinar a solução aproximada de um sistema de equações lineares
-    
-* CAPÍTULO 05: Interpolaçao polinomial
-    
-* CAPÍTULO 06: Quadrados mínimos
-    
-* CAPÍTULO 07: Integração numérica
-    
-* CAPÍTULO 08: Derivação numérica
-    
-* CAPÍTULO 09: Problema de valor inicial
-    
-* CAPÍTULO 10: Problemas de valores de contorno
-
+<ul>
+    <li>CAPÍTULO 01: Python para a disciplina</li>
+    <li>CAPÍTULO 02: Representação de números e aritmética em máquinas</li>
+    <li>CAPÍTULO 03: Métodos numéricos para determinar a solução aproximada de uma equação</li>
+    <li>CAPÍTULO 04: Métodos numéricos para determinar a solução aproximada de um sistema de equações lineares</li>
+    <li>CAPÍTULO 05: Interpolaçao polinomial</li>
+    <li>CAPÍTULO 06: Quadrados mínimos</li>
+    <li>CAPÍTULO 07: Integração numérica</li>
+    <li>CAPÍTULO 08: Derivação numérica</li>
+    <li>CAPÍTULO 09: Problema de valor inicial</li>
+    <li>CAPÍTULO 10: Problemas de valores de contorno
+</ul>
 </details>
 
 
