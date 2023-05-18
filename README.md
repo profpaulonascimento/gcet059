@@ -147,15 +147,12 @@
 </html>
 
 
-<div style="font-family: Helvetica; font-size:14px;">
-<p>Este repositório compreende uma coleção de notebooks Python em suporte à disciplina **GCET059 Cálculo Numérico**, um curso ministrado na Universidade Federal do Recôncavo da Bahia. <!-- Observe que há um site complementar [**CBE 32338 Process Control Laboratory**](https://jckantor.github.io/CBE32338/) com notebooks adicionais demonstrando a implementação prática desses conceitos usando o Temperature Control Laboratory.-->
-</p>
-<p>Os links abaixo exibem os blocos de anotações como páginas da Web HTML normais. 
-</p>
+<font family=helvetica; size=14px>
+Este repositório compreende uma coleção de notebooks Python em suporte à disciplina **GCET059 Cálculo Numérico**, um curso ministrado na Universidade Federal do Recôncavo da Bahia. <!-- Observe que há um site complementar [**CBE 32338 Process Control Laboratory**](https://jckantor.github.io/CBE32338/) com notebooks adicionais demonstrando a implementação prática desses conceitos usando o Temperature Control Laboratory.-->
 
-<p>No menu de Capítulos acima, poderemos acessar notebooks Python como páginas da Web HTML normais. Caso desejemos, poderemos executar o notebook no [Google Colaboratory](https://colab.research.google.com) ou fazer o download para executar em seu próprio laptop. Para executar em seu próprio laptop, você precisará instalar Jupyter e Python 3, como a excelente [distribuição Anaconda da Continuum Analytics](https://www.continuum.io/downloads). Os notebooks estão dispostos da seguinte maneira:
-</p>
+No menu de Capítulos acima, poderemos acessar notebooks Python como páginas da Web HTML normais. Caso desejemos, poderemos executar o notebook no [Google Colaboratory](https://colab.research.google.com) ou fazer o download para executar em seu próprio laptop. Para executar em seu próprio laptop, você precisará instalar Jupyter e Python 3, como a excelente [distribuição Anaconda da Continuum Analytics](https://www.continuum.io/downloads). Os notebooks estão dispostos da seguinte maneira:
 
+    
 * CAPÍTULO 01: Python para a disciplina
 
 * CAPÍTULO 02: Representação de números e aritmética em máquinas
@@ -178,7 +175,4 @@
 
 
 
-<p>Por favor, deixe-me saber ([email](mailto:nascimento.p@ufrb.edu.br)) se você tem alguma opinião ou sugestão sobre como esses notebooks podem ser melhorados para ensinar e aprender a teoria que envolve o Cálculo Numérico.
-</p>
-</div>
-
+Por favor, deixe-me saber ([email](mailto:nascimento.p@ufrb.edu.br)) se você tem alguma opinião ou sugestão sobre como esses notebooks podem ser melhorados para ensinar e aprender a teoria que envolve o Cálculo Numérico.
