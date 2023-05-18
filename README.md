@@ -59,25 +59,74 @@
 
 <nav>
 <ul class="menu">
-<li><a href="#">Capítulo 1</a></li>
-<li><a href="#">Capítulo 2</a></li>
-<li><a href="#">Capítulo 3</a></li>
-<li><a href="#">Capítulo 4</a></li>
-<li><a href="#">Capítulo 5</a></li>
-<li><a href="#">Capítulo 6</a></li>
-<li><a href="#">Capítulo 7</a>
+<li><a href="#">Capítulo 01</a></li>
+    <ul class="submenu">
+        <li><a href="" target="_blank"></a></li>
+    </ul>
+    
+<li><a href="#">Capítulo 02</a></li>
+    <ul class="submenu">
+        <li><a href="" target="_blank">Sistemas de numeração</a></li>
+        <li><a href="" target="_blank">Conversão de base</a></li>
+        <li><a href="" target="_blank">Representação em ponto fixo</a></li>
+        <li><a href="" target="_blank">Representação em ponto flutuante</a></li>
+        <li><a href="" target="_blank">Erros</a></li>
+        <li><a href="" target="_blank">Arredondamento em ponto flutuante</a></li>
+        <li><a href="" target="_blank">Operações aritméticas em ponto flutuante</a></li>
+        <li><a href="" target="_blank">Efeitos das operações em máquinas</a></li>
+    </ul>
+
+<li><a href="#">Capítulo 03</a></li>
+    <ul class="submenu">
+        <li><a href="" target="_blank">Isolamento do zero de uma função</a></li>
+        <li><a href="" target="_blank">Bisseção</a></li>
+        <li><a href="" target="_blank">Posição-falsa</a></li>
+        <li><a href="" target="_blank">Iteração linear</a></li>
+        <li><a href="" target="_blank">Newton-Raphson</a></li>
+        <li><a href="" target="_blank">Secantes</a></li>
+    </ul>
+
+<li><a href="#">Capítulo 04</a></li>
+    <ul class="submenu">
+        <li><a href="" target="_blank"></a></li>
+    </ul>
+
+<li><a href="#">Capítulo 05</a></li>
+    <ul class="submenu">
+        <li><a href="" target="_blank"></a></li>
+    </ul>
+
+<li><a href="#">Capítulo 06</a></li>
+    <ul class="submenu">
+        <li><a href="" target="_blank"></a></li>
+    </ul>
+
+<li><a href="#">Capítulo 07</a>
     <ul class="submenu">
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_interpolacao_sistemas.html" target="_blank">Utilizando Sistemas Lineares</a></li>
     </ul>
 </li>
-<li><a href="#">Capítulo 8</a> <!--Métodos para encontrar aproximações da integral de uma função real definida em um intervalo</a>-->
+
+<li><a href="#">Capítulo 08</a> <!--Métodos para encontrar aproximações da integral de uma função real definida em um intervalo</a>-->
     <ul class="submenu">
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_trapezios.html" target="_blank">Método dos Trapézios</a></li>
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_13simpson.html" target="_blank">Método 1/3 de Simpson</a></li>
         <li><a href="https://profpaulonascimento.github.io/gcet059/html/gcet059_integracao_38simpson.html" target="_blank">Método 3/8 de Simpson</a></li>    
     </ul>
 </li>
-<li><a href="#">Item</a></li>
+
+<li><a href="#">Capítulo 09</a></li>
+    <ul class="submenu">
+        <li><a href="" target="_blank"></a></li>
+    </ul>
+
+ <li><a href="#">Capítulo 10</a></li>
+    <ul class="submenu">
+        <li><a href="" target="_blank"></a></li>
+    </ul>
+
+
+    
 </ul>
 </nav>
 
