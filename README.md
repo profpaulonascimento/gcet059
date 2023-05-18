@@ -171,6 +171,9 @@ Este repositório compreende uma coleção de notebooks Python em suporte à dis
 
 No menu acima, podemos acessar notebooks Python como páginas da Web HTML normais. Caso desejemos, poderemos executar o notebook no [Google Colaboratory](https://colab.research.google.com) ou fazer o download para executar em seu próprio laptop. Para executar em seu próprio laptop, você precisará instalar Jupyter e Python 3, como a excelente [distribuição Anaconda da Continuum Analytics](https://www.continuum.io/downloads). Os notebooks estão dispostos da seguinte maneira:
 
+<details>
+
+<summary>Descrição do capítulos</summary>
 
 * CAPÍTULO 01: Python para a disciplina
     
@@ -191,5 +194,8 @@ No menu acima, podemos acessar notebooks Python como páginas da Web HTML normai
 * CAPÍTULO 09: Problema de valor inicial
     
 * CAPÍTULO 10: Problemas de valores de contorno
+
+</details>
+
 
 Por favor, deixe-me saber ([email](mailto:nascimento.p@ufrb.edu.br)) se você tem alguma opinião ou sugestão sobre como esses notebooks podem ser melhorados para ensinar e aprender a teoria que envolve o Cálculo Numérico.
