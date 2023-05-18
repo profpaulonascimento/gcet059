@@ -146,32 +146,31 @@
 
 </html>
 
-<font size=3>
+
 Este repositório compreende uma coleção de notebooks Python em suporte à disciplina **GCET059 Cálculo Numérico**, um curso ministrado na Universidade Federal do Recôncavo da Bahia. <!-- Observe que há um site complementar [**CBE 32338 Process Control Laboratory**](https://jckantor.github.io/CBE32338/) com notebooks adicionais demonstrando a implementação prática desses conceitos usando o Temperature Control Laboratory.-->
 
-<font size=3>
+
 No menu de Capítulos acima, poderemos acessar notebooks Python como páginas da Web HTML normais. Caso desejemos, poderemos executar o notebook no [Google Colaboratory](https://colab.research.google.com) ou fazer o download para executar em seu próprio laptop. Para executar em seu próprio laptop, você precisará instalar Jupyter e Python 3, como a excelente [distribuição Anaconda da Continuum Analytics](https://www.continuum.io/downloads). Os notebooks estão dispostos da seguinte maneira:
 
 
-* <font size=3>CAPÍTULO 01: Python para a disciplina
+* CAPÍTULO 01: Python para a disciplina
     
-* <font size=3>CAPÍTULO 02: Representação de números e aritmética em máquinas
+* CAPÍTULO 02: Representação de números e aritmética em máquinas
     
-* <font size=3>CAPÍTULO 03: Métodos numéricos para determinar a solução aproximada de uma equação
+* CAPÍTULO 03: Métodos numéricos para determinar a solução aproximada de uma equação
     
-* <font size=3>CAPÍTULO 04: Métodos numéricos para determinar a solução aproximada de um sistema de equações lineares
+* CAPÍTULO 04: Métodos numéricos para determinar a solução aproximada de um sistema de equações lineares
     
-* <font size=3>CAPÍTULO 05: Interpolaçao polinomial
+* CAPÍTULO 05: Interpolaçao polinomial
     
-* <font size=3>CAPÍTULO 06: Quadrados mínimos
+* CAPÍTULO 06: Quadrados mínimos
     
-* <font size=3>CAPÍTULO 07: Integração numérica
+* CAPÍTULO 07: Integração numérica
     
-* <font size=3>CAPÍTULO 08: Derivação numérica
+* CAPÍTULO 08: Derivação numérica
     
-* <font size=3>CAPÍTULO 09: Problema de valor inicial
+* CAPÍTULO 09: Problema de valor inicial
     
-* <font size=3>CAPÍTULO 10: Problemas de valores de contorno
+* CAPÍTULO 10: Problemas de valores de contorno
 
-<font size=3>
 Por favor, deixe-me saber ([email](mailto:nascimento.p@ufrb.edu.br)) se você tem alguma opinião ou sugestão sobre como esses notebooks podem ser melhorados para ensinar e aprender a teoria que envolve o Cálculo Numérico.
