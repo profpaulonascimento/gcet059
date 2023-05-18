@@ -14606,7 +14606,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Considere os $n+1$ pontos $(x_{i}, f(x_{i}))$, $f(x_{i}) = y_{i}$, $i = 0, 1, 2, \ldots, n$.
+<p><font size=4>Considere os $n+1$ pontos $(x_{i}, f(x_{i}))$, $f(x_{i}) = y_{i}$, $i = 0, 1, 2, \ldots, n$.
 Seja $p_{n}(x)$ o polinômio de grau menor igual a $n$ que interpola $f$ nos pontos $x_{i}$, $i = 0, 1, \ldots, n$, representado por
 $$p_{n}(x) = y_{0} L_{0}(x) + y_{1} L_{1}(x) + \ldots + y_{n}L_{n}(x) = \displaystyle\sum_{i = 0}^n y_{i} \cdot L_{i}(x),$$
 onde os polinômios $L_{i}(x), i = 0, 1, 2, \ldots, n$, são de grau $n$. Para cada $i$, queremos que a condição $p_{n}(x_{i}) = y_{i}$ seja satisfeita, ou seja,
@@ -14614,13 +14614,13 @@ $$y_{0} L_{0}(x_{i}) + y_{1} L_{1}(x_{i}) + \ldots + y_{n}L_{n}(x_{i}) = y_{i}$$
 e a forma mais simples de satisfazer essa igualdade é definir:
 $$L_{k}(x) = \dfrac{(x-x_{0}) \cdot (x-x_{1}) \cdots (x-x_{k-1}) \cdot (x-x_{k+1}) \cdots (x-x_{n})}{(x_{k}-x_{0}) \cdot (x_{k}-x_{1}) \cdots (x_{k}-x_{k-1}) \cdot (x_{k}-x_{k+1}) \cdots (x_{k}-x_{n})}
 = \prod_{{i = 0}\atop{i\neq k}}^{n} \dfrac{(x-x_{k})}{(x_{k}-x_{i})}.$$</p>
-<p>Podemos verificar que
+<p><font size=4>Podemos verificar que
 $$L_{k}(x_{i}) = \left\{\begin{array}{rcl}
 0, \mbox{ se } k \ne i \\
 1, \mbox{ se } k = i. \\
 \end{array}\right.$$</p>
-<p>O numerador de $L_{k}(x)$ é um produto de $n$ fatores da forma $(x-x_{i}$, com $i = 0, 1, 2, \ldots, n$ e $i \ne k$, e, portanto, um polinômio de grau $n$. Consequentemente, $p_n(x)$ é um polinômio de grau menor ou igual a $n$. Sendo assim, temos a seguinte definição:</p>
-<p><strong>Definição 01</strong>: [Forma de Lagrange] O polinômio
+<p><font size=4>O numerador de $L_{k}(x)$ é um produto de $n$ fatores da forma $(x-x_{i}$, com $i = 0, 1, 2, \ldots, n$ e $i \ne k$, e, portanto, um polinômio de grau $n$. Consequentemente, $p_n(x)$ é um polinômio de grau menor ou igual a $n$. Sendo assim, temos a seguinte definição:</p>
+<p><font size=4>**Definição 01**: [Forma de Lagrange] O polinômio
 $$p_n(x) = \displaystyle\sum_{i = 0}^{n} y_{i} \cdot L_{i}(x), \mbox{ com } L_{i}(x) = \prod_{{k = 0}\atop{k\neq i}}^{n} \dfrac{(x-x_{k})}{(x_{i}-x_{k})}$$
 é a <font color=blue>**forma de Lagrange**</font> para a interpolação de $(n+1)$ pontos $x = x_{i}$, $i = 0, 1, 2, \ldots, n$.</p>
 
@@ -14645,7 +14645,7 @@ $$p_n(x) = \displaystyle\sum_{i = 0}^{n} y_{i} \cdot L_{i}(x), \mbox{ com } L_{i
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Encontre, pela forma de Lagrange, o polinômio que interpola os pontos da tabela
+<p><font size=4>Encontre, pela forma de Lagrange, o polinômio que interpola os pontos da tabela
 $$\begin{array}{c|c|c|c}
 x &amp; -1 &amp; 0 &amp; 2 \\ \hline
 f(x) &amp; 4 &amp; 1 &amp; -1
@@ -14672,9 +14672,9 @@ f(x) &amp; 4 &amp; 1 &amp; -1
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>O polinômio interpolador de Lagrange de grau $2$ (observe aqui que temos três pontos) é:
+<p><font size=4>O polinômio interpolador de Lagrange de grau $2$ (observe aqui que temos três pontos) é:
 $$p_2(x) = f(x_{0}) \cdot L_{0}(x) + f(x_{1}) \cdot L_{1}(x) + f(x_{2}) \cdot L_2(x).$$</p>
-<p>Os multiplicadores $L_{i}(x)$, $i = 0, 1, 2$, são:
+<p><font size=4>Os multiplicadores $L_{i}(x)$, $i = 0, 1, 2$, são:
 $$\begin{array}{rcl}
 L_{0}(x)
 &amp; = &amp; \dfrac{(x-x_{1}) \cdot (x-x_{2})}{(x_{0}-x_{1}) \cdot (x_{0}-x_{2})}
@@ -14688,8 +14688,8 @@ L_2(x)
 &amp; = &amp; \dfrac{(x-x_{0}) \cdot (x-x_{1})}{(x_{2}-x_{0}) \cdot (x_{2}-x_{1})}
  = \dfrac{(x+1) \cdot (x-0)}{(2+1) \cdot (2-0)}
  = \dfrac{x^2+x}{6}
-\end{array}$$
-Assim,
+\end{array}$$</p>
+<p><font size=4>Assim,
 $$p_2(x) = 4 \cdot \dfrac{x^2-2x}{3} + 1 \cdot \dfrac{-x^2+x+2}{2} + (-1) \cdot \dfrac{x^2+x}{6} = 1 - \dfrac{7}{3}x+\dfrac{2}{3}x^2.$$
 Observe que o polinômio obtido é o mesmo que o da resolução do sistema.</p>
 
@@ -14714,7 +14714,7 @@ Observe que o polinômio obtido é o mesmo que o da resolução do sistema.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Determine $p_3(0.5)$ sabendo que o gráfico de $p_3$ passa pelos pontos $(-1,1)$, $(0,3)$, $(1,1)$, $(2,1)$.</p>
+<p><font size=4>Determine $p_3(0.5)$ sabendo que o gráfico de $p_3$ passa pelos pontos $(-1,1)$, $(0,3)$, $(1,1)$, $(2,1)$.</p>
 
 </div>
 </div>
@@ -14737,9 +14737,9 @@ Observe que o polinômio obtido é o mesmo que o da resolução do sistema.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>O polinômio interpolador de Lagrange de grau $3$ avaliado em $0,5$ é:
+<p><font size=4>O polinômio interpolador de Lagrange de grau $3$ avaliado em $0,5$ é:
 $$p_2(0,5) = f(x_{0}) \cdot L_{0}(0,5) + f(x_{1}) \cdot L_{1}(0,5) + f(x_{2}) \cdot L_2(0,5)+ f(x_{3}) \cdot L_3(0,5).$$</p>
-<p>Os multiplicadores $L_{i}(x)$, $i = 0, 1, 2, 3$, avaliados em $x = 0,5$ são:
+<p><font size=4>Os multiplicadores $L_{i}(x)$, $i = 0, 1, 2, 3$, avaliados em $x = 0,5$ são:
 $$\begin{array}{rl}
 L_{0}(0,5)
 &amp; = \dfrac{(0,5-x_{1}) \cdot (0,5-x_{2}) \cdot (0,5-x_{3})}{(-1-x_{1}) \cdot (-1-x_{2}) \cdot (-1-x_{3})}
@@ -14757,8 +14757,8 @@ L_3(0,5)
 &amp; = \dfrac{(x-x_{0}) \cdot (x-x_{1}) \cdot (x-x_{2})}{(x_{3}-x_{0}) \cdot (x_{3}-x_{1}) \cdot (x_{3}-x_{2})}
  = \dfrac{(0,5+1) \cdot (0,5-0) \cdot (0,5-1)}{(2+1) \cdot (2-0) \cdot (2-1)}
  = \dfrac{-1}{16}
-\end{array}$$
-Assim,
+\end{array}$$</p>
+<p><font size=4>Assim,
 $$p_3(0,5) = 1 \cdot \dfrac{1}{16} + 3 \cdot \dfrac{9}{16} + 1 \cdot \dfrac{1}{16} + 1 \cdot \dfrac{-1}{16} = \dfrac{7}{4}.$$
 Observe que não foi necessário determinar a expressão do polinômio.</p>
 
@@ -14772,7 +14772,8 @@ Observe que não foi necessário determinar a expressão do polinômio.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Esquema-pr%C3%A1tico-para-interpola%C3%A7%C3%A3o-polinomial-pela-Forma-de-Lagrange">Esquema pr&#225;tico para interpola&#231;&#227;o polinomial pela Forma de Lagrange<a class="anchor-link" href="#Esquema-pr%C3%A1tico-para-interpola%C3%A7%C3%A3o-polinomial-pela-Forma-de-Lagrange">&#182;</a></h1>
+<h1><font color=green>Esquema prático para interpolação polinomial pela Forma de Lagrange</h1>
+
 </div>
 </div>
 </div>
@@ -14783,8 +14784,8 @@ Observe que não foi necessário determinar a expressão do polinômio.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Para que possamos utilizar os mesmos cálculos tanto na interpolação quanto na determinação do erro, introduziremos, aqui, algumas notações para reescrevermos, de forma conveniente, as funções de Lagrange $L_{i}(x)$.</p>
-<p>O polinômio interpolador de Lagrange é dado por:
+<p><font size=4>Para que possamos utilizar os mesmos cálculos tanto na interpolação quanto na determinação do erro, introduziremos, aqui, algumas notações para reescrevermos, de forma conveniente, as funções de Lagrange $L_{i}(x)$.</p>
+<p><font size=4>O polinômio interpolador de Lagrange é dado por:
 $$p_{n}(x) = \displaystyle\sum_{i = 0}^n f(x_{i}) \cdot L_{i}(x),$$
 em que
 $$%\begin{array}{rcl}
@@ -14795,21 +14796,23 @@ L_{i}(x)
 %\end{array}
 $$
 Multiplicando o numerador e o denominador desta última fração pelo fator $\color{red}{(x-x_{i})}$, temos que:</p>
-$$\begin{array}{rcl}
+<p><font size=4>$$\begin{array}{rcl}
 L_{i}(x)
 &amp; = &amp; \dfrac{(x-x_{0}) \cdot \ldots \cdot (x-x_{i-1})\cdot \color{red}{(x-x_{i})} \cdot (x-x_{i+1}) \cdot \ldots \cdot (x-x_{n})}
 {(x_{i}-x_{0}) \cdot \ldots \cdot (x_{i}-x_{i-1}) \cdot \color{red}{(x-x_{i})} \cdot (x_{i}-x_{i+1}) \cdot \ldots \cdot (x_{i}-x_{n})}.
-\end{array}$$<p>Denotando o numerador por $N(x)$ e o denominador por $D_{i}(x)$, isto é,
+\end{array}$$</p>
+<p><font size=4>Denotando o numerador por $N(x)$ e o denominador por $D_{i}(x)$, isto é,
 $$\left\{\begin{array}{rcl}
 N(x) &amp; = &amp;(x-x_{0}) \cdot \ldots \cdot (x-x_{i-1})\cdot (x-x_{i}) \cdot (x-x_{i+1}) \cdot \ldots \cdot (x-x_{n})\\
 D_{i}(x) &amp; = &amp; (x_{i}-x_{0}) \cdot \ldots \cdot (x_{i}-x_{i-1}) \cdot {\color{red}{(x-x_{i})}} \cdot (x_{i}-x_{i+1}) \cdot \ldots \cdot (x_{i}-x_{n})
 \end{array}\right.$$</p>
-<p>Temos, então
+<p><font size=4>Temos, então
 $$L_{i}(x) = \dfrac{N(x)}{D_{i}(x)}.$$</p>
-<p>Assim, podemos reescrever, respectivamente, o polinômio interpolador de Lagrange, da seguinte forma:</p>
-$$p_{n}(x) = \displaystyle\sum_{i = 0}^n f(x_{i}) \cdot L_{i}(x) = \displaystyle\sum_{i = 0}^n f(x_{i}) \cdot \dfrac{N(x)}{D_{i}(x)} = N(x) \cdot \displaystyle\sum_{i = 0}^n \dfrac{f(x_{i})}{D_{i}(x)},$$<p>e a cota para o erro:
+<p><font size=4>Assim, podemos reescrever, respectivamente, o polinômio interpolador de Lagrange, da seguinte forma:</p>
+<p><font size=4>$$p_{n}(x) = \displaystyle\sum_{i = 0}^n f(x_{i}) \cdot L_{i}(x) = \displaystyle\sum_{i = 0}^n f(x_{i}) \cdot \dfrac{N(x)}{D_{i}(x)} = N(x) \cdot \displaystyle\sum_{i = 0}^n \dfrac{f(x_{i})}{D_{i}(x)},$$</p>
+<p><font size=4>e a cota para o erro:
 $$E_{\max}(x) = \dfrac{|N|}{(n+1)!} \cdot \max_{x \in [a,b]}\{|f^{(n+1)}(x)|\}.$$</p>
-<p>Com o intuito de determinar o valor de um polinômio de interpolação num ponto não tabelado, sem determinar sua expressão, a seguinte tabela pode ser utilizada
+<p><font size=4>Com o intuito de determinar o valor de um polinômio de interpolação num ponto não tabelado, sem determinar sua expressão, a seguinte tabela pode ser utilizada
 $$\begin{array}{|c|c|c|c|c|c|c|c|} \hline
 i &amp; &amp; &amp; &amp; &amp; D_{i}(x) &amp; f(x_{i}) &amp; f(x_{i})/D_{i}(x) \\ \hline
 0 &amp; \color{red}{(x-x_{0})} &amp; (x_{0}-x_{1}) &amp; \cdots &amp; (x_{0}-x_{n}) &amp; &amp; &amp; \\ \hline
@@ -14840,7 +14843,7 @@ n &amp; (x_{n}-x_{0}) &amp; (x_{n}-x_{1}) &amp; \cdots &amp; \color{red}{(x-x_{n
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Usando a tabela de valores dada abaixo, determine uma aproximação para $e^{1,35}$ e calcule uma cota para o erro cometido
+<p><font size=4>Usando a tabela de valores dada abaixo, determine uma aproximação para $e^{1,35}$ e calcule uma cota para o erro cometido
 $$\begin{array}{c|c|c|c|c}
 x &amp; 1.0 &amp; 1.2 &amp; 1.4 &amp; 1.6 \\ \hline
 e^x &amp; 2.718 &amp; 3.320 &amp; 4.055 &amp; 4.953
@@ -14867,7 +14870,7 @@ e^x &amp; 2.718 &amp; 3.320 &amp; 4.055 &amp; 4.953
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>O processo de determinação é feito através das tabelas a seguir:
+<p><font size=4>O processo de determinação é feito através das tabelas a seguir:
 $$\begin{array}{c}
 \begin{array}{|c|c|c|c|c|c|c|c|} \hline
 i &amp; &amp; &amp; &amp; &amp; D_{i}(x) &amp; f(x_{i}) &amp; f(x_{i})/D_{i}(x) \\ \hline
@@ -14887,14 +14890,17 @@ i &amp; &amp; &amp; &amp; &amp; D_{i}(x) &amp; f(x_{i}) &amp; f(x_{i})/D_{i}(x) 
  &amp; &amp; &amp; &amp; &amp; &amp; &amp; 5877.547 \\ \hline
 \end{array}
 \end{array}$$</p>
-<p>Portanto,
+<p><font size=4>Portanto,
 $$N(1.35) = {\color{red}{ 0.35 \cdot 0.15 \cdot (-0.05) \cdot (-0.25)}} = 0.00065625.$$</p>
-<p>Logo,
+<p><font size=4>Logo,
 $$e^{1.35} \approx 0.00065625 \cdot 5877.547 \approx 3.85714.$$</p>
-<p>Para estimar o erro obtido ao aplicarmos esse método, observemos que</p>
-$$f(x) = e^x \Longrightarrow f^{(4)}(x) = e^{x}.$$<p>e $f^{(4)}(x) = e^{x}$ é uma função crescente no intervalo $[1.0,1.6]$, temos que</p>
-$$|f^{(4)}(x)| \leq e^{1.6} \approx 4.953. \forall\ x \in [1.0,1.6].$$<p>Logo,</p>
-$$E_{\max} =  \dfrac{|N|}{4!} \cdot 4.953 \approx 0.000136.$$
+<p><font size=4>Para estimar o erro obtido ao aplicarmos esse método, observemos que</p>
+<p><font size=4>$$f(x) = e^x \Longrightarrow f^{(4)}(x) = e^{x}.$$
+e $f^{(4)}(x) = e^{x}$ é uma função crescente no intervalo $[1.0,1.6]$, temos que</p>
+<p><font size=4>$$|f^{(4)}(x)| \leq e^{1.6} \approx 4.953. \forall\ x \in [1.0,1.6].$$</p>
+<p><font size=4>Logo,</p>
+<p><font size=4>$$E_{\max} =  \dfrac{|N|}{4!} \cdot 4.953 \approx 0.000136.$$</p>
+
 </div>
 </div>
 </div>
@@ -14905,7 +14911,8 @@ $$E_{\max} =  \dfrac{|N|}{4!} \cdot 4.953 \approx 0.000136.$$
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="C%C3%B3digo">C&#243;digo<a class="anchor-link" href="#C%C3%B3digo">&#182;</a></h1>
+<h1><font color=green>Código</h1>
+
 </div>
 </div>
 </div>
@@ -14914,7 +14921,7 @@ $$E_{\max} =  \dfrac{|N|}{4!} \cdot 4.953 \approx 0.000136.$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">poli_L</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">T</span><span class="p">):</span> <span class="c1"># T é uma lista de pares ordenados e x é a variável da função L_i(x)</span>
@@ -14951,7 +14958,7 @@ $$E_{\max} =  \dfrac{|N|}{4!} \cdot 4.953 \approx 0.000136.$$
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Determine o polinômio que interpola os pontos $(-1,1), (0,1), (1,0)$. Construa o gráfico da função polinomial obtida e marque os nós da interpolação.</p>
+<p><font size=4>Determine o polinômio que interpola os pontos $(-1,1), (0,1), (1,0)$. Construa o gráfico da função polinomial obtida e marque os nós da interpolação.</p>
 
 </div>
 </div>
@@ -14972,7 +14979,7 @@ $$E_{\max} =  \dfrac{|N|}{4!} \cdot 4.953 \approx 0.000136.$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[68]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">pylab</span> <span class="kn">import</span> <span class="o">*</span>
@@ -15037,7 +15044,8 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Exerc%C3%ADcios">Exerc&#237;cios<a class="anchor-link" href="#Exerc%C3%ADcios">&#182;</a></h1>
+<h1><font color=green>Exercícios</h1>
+
 </div>
 </div>
 </div>
@@ -15059,7 +15067,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Determine, em cada caso, $p_3(1.5)$, sabendo que o gráfico de $p_3$ passa pelos pontos:</p>
+<p><font size=4>Determine, em cada caso, $p_3(1.5)$, sabendo que o gráfico de $p_3$ passa pelos pontos:</p>
 <blockquote><ul>
 <li>(a) $(0,1)$, $(1,2)$, $(2,3)$, $(3,0)$;</li>
 <li>(b) $(-1,1)$, $(0,5)$, $(2,-1)$, $(3,4)$.</li>
@@ -15087,7 +15095,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Determine, utilizando o código feito, o polinômio $p_3$ de grau 3 que interpola os pontos $(0,f(0))$, $(1,f(1))$, $(2,f(2))$ e $(3,f(3))$, sabendo que $f(x) = \ln(\sec(x)+\tan(x))$.</p>
+<p><font size=4>Determine, utilizando o código feito, o polinômio $p_3$ de grau 3 que interpola os pontos $(0,f(0))$, $(1,f(1))$, $(2,f(2))$ e $(3,f(3))$, sabendo que $f(x) = \ln(\sec(x)+\tan(x))$.</p>
 
 </div>
 </div>
@@ -15110,12 +15118,12 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>O grau Fahrenheit (ºF) é uma escala de temperatura tal que:</p>
+<p><font size=4>O grau Fahrenheit (ºF) é uma escala de temperatura tal que:</p>
 <ul>
-<li>o ponto de fusão da água é de 32 ºF (equivalente a 0 ºC) e</li>
-<li>o ponto de ebulição da água é de 212 ºF (equivalente a 100 ºC).</li>
+<li><font size=4>o ponto de fusão da água é de 32 ºF (equivalente a 0 ºC) e</li>
+<li><font size=4>o ponto de ebulição da água é de 212 ºF (equivalente a 100 ºC).</li>
 </ul>
-<p>Utilizando o método de Lagrange para interpolação linear, calcule a relação entre grau Fahrenheit e
+<p><font size=4>Utilizando o método de Lagrange para interpolação linear, calcule a relação entre grau Fahrenheit e
 grau Celsius.</p>
 
 </div>
@@ -15139,10 +15147,11 @@ grau Celsius.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Um biólogo precisa realizar vários experimentos em uma cobaia, calculando sua resposta a certos estímulos. Tanto a resposta como os estímulos podem ser convertidos para um número real. De acordo com teorias, a resposta tem uma relação aproximadamente quadrática em relação ao estímulo fornecido. Os dados já obtidos foram:</p>
-$$(1.0, 3.0), (2.0, 5.0) \mbox{ e } (3.0, 3.0).$$<blockquote><ul>
-<li>(a) Calcule o valor esperado para o estímulo medido como $3.5$ (sugestão: utilize o algoritmo criado para interpolar pontos).</li>
-<li>(b) Construa um código que plote uma figura onde aparecem os $4$ pontos desta questão e o gráfico da função interpoladora. </li>
+<p><font size=4>Um biólogo precisa realizar vários experimentos em uma cobaia, calculando sua resposta a certos estímulos. Tanto a resposta como os estímulos podem ser convertidos para um número real. De acordo com teorias, a resposta tem uma relação aproximadamente quadrática em relação ao estímulo fornecido. Os dados já obtidos foram:</p>
+<p><font size=4>$$(1.0, 3.0), (2.0, 5.0) \mbox{ e } (3.0, 3.0).$$</p>
+<blockquote><ul>
+<li><font size=4>(a) Calcule o valor esperado para o estímulo medido como $3.5$ (sugestão: utilize o algoritmo criado para interpolar pontos).</li>
+<li><font size=4>(b) Construa um código que plote uma figura onde aparecem os $4$ pontos desta questão e o gráfico da função interpoladora. </li>
 </ul>
 </blockquote>
 
@@ -15167,7 +15176,7 @@ $$(1.0, 3.0), (2.0, 5.0) \mbox{ e } (3.0, 3.0).$$<blockquote><ul>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Um tanque com capacidade para $10𝑚^3$ de água, inicialmente completamente cheio (tempo $𝑡 = 0$), está sendo esvaziado com uma velocidade que varia linearmente com o tempo (logo o volume varia de forma quadrática). Constata-se que o tanque está com $8𝑚^3$ em $𝑡 = 1$ min e com $4𝑚^3$ em $𝑡 = 2$ min. Utilizando interpolação de Lagrange, calcule o instante de tempo em que o tanque estará vazio.</p>
+<p><font size=4>Um tanque com capacidade para $10𝑚^3$ de água, inicialmente completamente cheio (tempo $𝑡 = 0$), está sendo esvaziado com uma velocidade que varia linearmente com o tempo (logo o volume varia de forma quadrática). Constata-se que o tanque está com $8𝑚^3$ em $𝑡 = 1$ min e com $4𝑚^3$ em $𝑡 = 2$ min. Utilizando interpolação de Lagrange, calcule o instante de tempo em que o tanque estará vazio.</p>
 
 </div>
 </div>
