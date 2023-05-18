@@ -158,6 +158,7 @@
  <li><a href="#">CAPÍTULO 10</a>
     <ul class="submenu">
         <li><a href="" target="_blank">Método de diferenças finitas</a></li>
+        <li><a href="https://profpaulonascimento.github.io/gcet059/md/quadrados_minimos.md" target="_blank">QUadrados mínimos</a></li>
     </ul>
 </li>
     
