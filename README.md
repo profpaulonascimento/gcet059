@@ -171,7 +171,7 @@ Este repositório compreende uma coleção de notebooks Python em suporte à dis
 
 No menu acima, podemos acessar notebooks Python como páginas da Web HTML normais. Caso desejemos, poderemos executar o notebook no [Google Colaboratory](https://colab.research.google.com) ou fazer o download para executar em seu próprio laptop. Para executar em seu próprio laptop, você precisará instalar Jupyter e Python 3, como a excelente [distribuição Anaconda da Continuum Analytics](https://www.continuum.io/downloads). Os notebooks estão dispostos da seguinte maneira:
 
-<details>
+<details data-toggle="collapse">
 <summary>DESCRIÇÃO DOS CAPÍTULOS</summary>
 
 <ul>
@@ -184,7 +184,7 @@ No menu acima, podemos acessar notebooks Python como páginas da Web HTML normai
     <li>CAPÍTULO 07: Integração numérica</li>
     <li>CAPÍTULO 08: Derivação numérica</li>
     <li>CAPÍTULO 09: Problema de valor inicial</li>
-    <li>CAPÍTULO 10: Problemas de valores de contorno
+    <li>CAPÍTULO 10: Problemas de valores de contorno</li>
 </ul>
 </details>
 
